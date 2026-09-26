@@ -1073,7 +1073,10 @@
                 <div class="flex items-center gap-4 mb-4 sticky top-0 bg-indigo-50/95 backdrop-blur z-10 py-2">
                     <button onclick="app.navigate('home')" class="btn-press w-10 h-10 rounded-full bg-white shadow flex items-center justify-center text-indigo-600 hover:bg-indigo-50" aria-label="Voltar para o início"><i class="fas fa-arrow-left"></i></button>
                     <div class="flex-1">
-                        <span class="text-[10px] font-black uppercase tracking-widest text-indigo-500">HALL DA FAMA</span>
+                        <div class="flex items-center gap-2 mb-0.5">
+                            <span class="text-[10px] font-black uppercase tracking-widest text-indigo-500">HALL DA FAMA</span>
+                            <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-emerald-100 text-emerald-700 border border-emerald-200"><i class="fas fa-circle text-[6px] text-emerald-500 animate-pulse"></i> Nuvem / Global</span>
+                        </div>
                         <h2 class="text-2xl font-black text-gray-800 flex items-center gap-2"><i class="fas fa-trophy text-yellow-500"></i> Recordes & Líderes</h2>
                     </div>
                     <button onclick="app.loadRanking()" class="btn-press w-10 h-10 rounded-full bg-white shadow flex items-center justify-center text-indigo-600" title="Atualizar Ranking"><i class="fas fa-rotate"></i></button>
@@ -2075,20 +2078,66 @@
 
             async loadRanking() {
                 const mode = state.ranking.currentTab || 'survival';
+                const listEl = document.getElementById('ranking-list');
+
+                // Mostrar estado de carregando se a lista estiver vazia
+                if (listEl && (!listEl.children || listEl.children.length === 0)) {
+                    listEl.innerHTML = `<div class="text-center py-8 text-xs sm:text-sm text-indigo-500 font-bold"><i class="fas fa-circle-notch fa-spin mr-2"></i>Sincronizando ranking online...</div>`;
+                }
+
+                // 1. Tentar via API Vercel Serverless
                 try {
                     const res = await fetch(`/api/leaderboard?mode=${mode}`);
                     if (res.ok) {
                         const data = await res.json();
-                        this.renderRanking(data);
-                        localStorage.setItem('qm_leaderboard_' + mode, JSON.stringify(data));
+                        const list = Array.isArray(data) ? data : (data[mode] || []);
+                        this.renderRanking(list);
+                        localStorage.setItem('qm_leaderboard_' + mode, JSON.stringify(list));
                         return;
                     }
                 } catch(e) {}
                 
-                // Fallback local storage
+                // 2. Fallback direto via Firestore REST API (projeto: expedicao-brasil)
+                try {
+                    const fsUrl = 'https://firestore.googleapis.com/v1/projects/expedicao-brasil/databases/(default)/documents:runQuery?key=AIzaSyBUHGXoUMg0bV3EdmfpfmVAEYMLQceqkQc';
+                    const fsRes = await fetch(fsUrl, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({
+                            structuredQuery: {
+                                from: [{ collectionId: 'quizmaster_leaderboard' }],
+                                orderBy: [{ field: { fieldPath: 'score' }, direction: 'DESCENDING' }],
+                                limit: 50
+                            }
+                        })
+                    });
+                    if (fsRes.ok) {
+                        const rows = await fsRes.json();
+                        const list = [];
+                        for (const r of rows) {
+                            if (!r.document || !r.document.fields) continue;
+                            const f = r.document.fields;
+                            const itemMode = (f.mode?.stringValue || 'survival').toLowerCase();
+                            if (mode && itemMode !== mode) continue;
+                            list.push({
+                                name: (f.name?.stringValue || 'Jogador').trim(),
+                                score: parseInt(f.score?.integerValue || f.score?.doubleValue || 0, 10),
+                                mode: itemMode,
+                                details: f.details?.stringValue || '',
+                                date: f.date?.stringValue || ''
+                            });
+                        }
+                        list.sort((a,b) => b.score - a.score);
+                        this.renderRanking(list);
+                        localStorage.setItem('qm_leaderboard_' + mode, JSON.stringify(list));
+                        return;
+                    }
+                } catch(e) {}
+
+                // 3. Fallback final: memória local (offline)
                 try {
                     const localData = JSON.parse(localStorage.getItem('qm_leaderboard_' + mode) || '[]');
-                    this.renderRanking(localData);
+                    this.renderRanking(Array.isArray(localData) ? localData : []);
                 } catch(e) {
                     this.renderRanking([]);
                 }
@@ -2191,14 +2240,41 @@
                     date: new Date().toLocaleDateString('pt-BR')
                 };
 
+                let savedToCloud = false;
+
+                // 1. Tentar salvar via API Vercel Serverless
                 try {
-                    await fetch('/api/leaderboard', {
+                    const res = await fetch('/api/leaderboard', {
                         method: 'POST',
                         headers: { 'Content-Type': 'application/json' },
                         body: JSON.stringify(entry)
                     });
+                    if (res.ok) savedToCloud = true;
                 } catch(e) {}
 
+                // 2. Fallback direto via Firestore REST API (projeto: expedicao-brasil)
+                if (!savedToCloud) {
+                    try {
+                        const fsPostUrl = 'https://firestore.googleapis.com/v1/projects/expedicao-brasil/databases/(default)/documents/quizmaster_leaderboard?key=AIzaSyBUHGXoUMg0bV3EdmfpfmVAEYMLQceqkQc';
+                        await fetch(fsPostUrl, {
+                            method: 'POST',
+                            headers: { 'Content-Type': 'application/json' },
+                            body: JSON.stringify({
+                                fields: {
+                                    name: { stringValue: entry.name },
+                                    score: { integerValue: String(entry.score) },
+                                    mode: { stringValue: entry.mode },
+                                    details: { stringValue: entry.details },
+                                    date: { stringValue: entry.date },
+                                    createdAt: { timestampValue: new Date().toISOString() }
+                                }
+                            })
+                        });
+                        savedToCloud = true;
+                    } catch(e) {}
+                }
+
+                // 3. Salvar também no localStorage local (garantia offline)
                 try {
                     const key = 'qm_leaderboard_' + (state.quiz.mode === 'survival' ? 'survival' : 'quick');
                     const cur = JSON.parse(localStorage.getItem(key) || '[]');
@@ -2208,6 +2284,7 @@
 
                 this.closeSaveScoreModal();
                 this.navigate('ranking');
+                this.loadRanking();
             },
 
             playAgain() { this.startQuiz(state.quiz.mode, state.quiz.category); },
