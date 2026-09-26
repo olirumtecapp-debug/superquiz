@@ -51,13 +51,13 @@ const CURIOSIDADES_QUESTIONS = [
     2,
     "Qual invenção de um padre brasileiro em 1899 antecedeu a demonstração pública de rádio de Marconi?",
     [
-      "Transmissão da voz humana por rádio",
-      "O telégrafo elétrico",
-      "A televisão colorida",
-      "O telefone de disco"
+      "Radiotransmissão de voz",
+      "Telégrafo elétrico",
+      "Televisão em cores",
+      "Telefone de disco"
     ],
     0,
-    "O padre gaúcho Roberto Landell de Moura transmitiu voz por ondas de rádio em São Paulo antes de Marconi registrar sua patente de voz.",
+    "O padre gaúcho Roberto Landell de Moura transmitiu voz por ondas de rádio em São Paulo em 1899, antes de Marconi registrar sua patente de transmissão de voz.",
     "Envolve transmissão de voz sem fios pelo ar."
   ],
   [
@@ -66,10 +66,10 @@ const CURIOSIDADES_QUESTIONS = [
     3,
     "Qual ilha no litoral de SP tem a maior concentração de serpentes venenosas do mundo e é fechada ao público?",
     [
-      "Ilhabela",
+      "Ilha de São Sebastião",
       "Ilha da Queimada Grande",
-      "Ilha do Mel",
-      "Ilha Grande"
+      "Ilha do Cardoso",
+      "Ilha de Santo Amaro"
     ],
     1,
     "A Ilha da Queimada Grande abriga milhares de jararacas-ilhoas, com veneno adaptado para paralisar aves quase instantaneamente.",
@@ -111,10 +111,10 @@ const CURIOSIDADES_QUESTIONS = [
     3,
     "Em 1959, qual morador do zoológico de São Paulo recebeu cerca de 100 mil votos de protesto para vereador?",
     [
-      "O macaco Tião",
+      "O chimpanzé Tião",
       "O rinoceronte Cacareco",
       "O leão Dunga",
-      "A arara Loura"
+      "O papagaio Louro"
     ],
     1,
     "A fêmea de rinoceronte Cacareco foi a 'candidata' mais votada para a Câmara Municipal de SP como forma de repúdio aos políticos!",
@@ -323,7 +323,7 @@ const CURIOSIDADES_QUESTIONS = [
     [
       "Sirius",
       "Canopus",
-      "Spica (Alfa de Virgem)",
+      "Spica",
       "Antares"
     ],
     2,
@@ -381,10 +381,10 @@ const CURIOSIDADES_QUESTIONS = [
     1,
     "Originalmente na bandeira imperial de 1822, o que o verde e o amarelo simbolizavam?",
     [
-      "As matas e o ouro",
-      "As dinastias reais de Bragança e Habsburgo",
-      "A esperança e o sol",
-      "A cana e o trigo"
+      "Matas e reservas de ouro",
+      "Casas de Bragança e Habsburgo",
+      "Esperança e calor do sol",
+      "Lavouras de cana e de trigo"
     ],
     1,
     "O verde homenageava a Casa de Bragança (D. Pedro I) e o amarelo a Casa Real da Áustria Habsburgo-Lorena (D. Leopoldina).",
@@ -397,9 +397,9 @@ const CURIOSIDADES_QUESTIONS = [
     "Qual é a cerimônia oficial realizada com bandeiras do Brasil que se tornam rasgadas ou desgastadas?",
     [
       "São recicladas em papel",
-      "São incineradas em cerimônia cívica no Dia da Bandeira",
-      "São enterradas em cemitérios cívicos",
-      "São guardadas em cofres"
+      "São incineradas no Dia da Bandeira",
+      "São enterradas em rito solene",
+      "São guardadas em cofre público"
     ],
     1,
     "A Lei 5.700 determina a incineração das bandeiras inservíveis ao meio-dia de 19 de novembro em unidades militares.",
@@ -471,7 +471,7 @@ const CURIOSIDADES_QUESTIONS = [
     3,
     "Qual estrela quase invisível no céu simboliza o Distrito Federal por marcar o Polo Celeste Sul?",
     [
-      "Polaris Australis (Sigma Octantis)",
+      "Polaris Australis",
       "Antares",
       "Canopus",
       "Procyon"
@@ -532,7 +532,7 @@ const CURIOSIDADES_QUESTIONS = [
     "Ao ser hasteada em conjunto com bandeiras estaduais em número ímpar, onde a bandeira do Brasil deve ficar?",
     [
       "Na extrema esquerda",
-      "No centro exato do dispositivo",
+      "Ao centro do dispositivo",
       "Na extrema direita",
       "Atrás das demais"
     ],
@@ -606,10 +606,10 @@ const CURIOSIDADES_QUESTIONS = [
     2,
     "O que é um 'Tornado de Fogo' (Fire Whirl), fenômeno raro e impressionante na natureza?",
     [
-      "Um tornado que desce do Sol",
-      "Vórtice gerado pelo calor intenso de queimadas que suga chamas e ar quente",
-      "Fogo comum em linha reta",
-      "Um meteoro que explode girando"
+      "Tornado que descende do Sol",
+      "Vórtice de ar quente e labaredas",
+      "Labareda comum em linha reta",
+      "Meteoro em combustão rotativa"
     ],
     1,
     "Calor extremo e ventos fortes de grandes incêndios criam correntes ascendentes giratórias que sugam labaredas e gases em combustão a grande altitude.",
@@ -651,10 +651,10 @@ const CURIOSIDADES_QUESTIONS = [
     1,
     "Qual é o nome popular do redemoinho inofensivo de poeira que se forma em dias quentes no solo seco?",
     [
-      "Tufão",
-      "Redemoinho de poeira (diabo de poeira)",
-      "Ciclone bomba",
-      "Tromba d'água"
+      "Tufão repentino",
+      "Redemoinho de poeira",
+      "Ciclone extratropical",
+      "Tromba d'água costeira"
     ],
     1,
     "Diferente de tornados, redemoinhos de poeira sobem a partir do solo aquecido pelo sol e não dependem de nuvens de tempestade.",
@@ -696,10 +696,10 @@ const CURIOSIDADES_QUESTIONS = [
     2,
     "O que é uma 'tromba d'água tornádica'?",
     [
-      "Uma cachoeira que cai para cima",
-      "Um tornado comum que se forma sobre a terra e se move para a água ou vice-versa",
-      "Um gêiser submarino",
-      "Uma onda gigante que gira"
+      "Cachoeira em ascensão",
+      "Tornado que atua sobre a água",
+      "Gêiser marinho de pressão",
+      "Onda gigante rotativa"
     ],
     1,
     "Trombas tornádicas têm a mesma violência de tornados em terra e se conectam a nuvens supercélulas sobre rios, lagos ou mares.",
@@ -726,10 +726,10 @@ const CURIOSIDADES_QUESTIONS = [
     1,
     "Por que abrir as janelas de uma casa durante a passagem de um tornado NÃO ajuda em nada?",
     [
-      "Porque a pressão atrai relâmpagos",
-      "Porque permite a entrada de ventos violentos e destroços que destroem o teto",
-      "Porque o tornado é feito de água",
-      "Porque desliga a luz"
+      "A pressão atrai relâmpagos",
+      "Facilita entrada de vento e destroços",
+      "O tornado dissipa em contato",
+      "A fiação elétrica é desligada"
     ],
     1,
     "O antigo mito de que a casa explodia por pressão foi derrubado: abrir janelas só facilita que o vento arranque o telhado e arremesse destroços.",
@@ -756,10 +756,10 @@ const CURIOSIDADES_QUESTIONS = [
     2,
     "O que é o 'olho' ou centro de um tornado em comparação com a periferia de ventos?",
     [
-      "Uma área de pressão extremamente baixa e ventos mais calmos no núcleo",
-      "Um local cheio de lava",
-      "Uma parede de gelo maciço",
-      "Uma região com gravidade invertida"
+      "Núcleo de baixa pressão e ventos calmos",
+      "Câmara com lava vulcânica",
+      "Muralha de gelo comprimido",
+      "Zona de gravidade invertida"
     ],
     0,
     "No centro do funil do tornado a pressão do ar cai drasticamente e o ar pode até descer lentamente.",
@@ -771,10 +771,10 @@ const CURIOSIDADES_QUESTIONS = [
     3,
     "Qual tornado percorreu mais de 350 km através de 3 estados norte-americanos em 1925, quebrando recordes?",
     [
-      "O Tornado dos Três Estados (Tri-State Tornado)",
-      "O Furacão Katrina",
-      "O Ciclone Bhola",
-      "O Tornado de Oklahoma City"
+      "Tornado dos Três Estados",
+      "Furacão Katrina",
+      "Ciclone Bhola",
+      "Tornado de Joplin"
     ],
     0,
     "O Tri-State Tornado percorreu Missouri, Illinois e Indiana a 117 km/h por mais de 3 horas e meia, matando 695 pessoas.",
@@ -786,10 +786,10 @@ const CURIOSIDADES_QUESTIONS = [
     1,
     "Qual é o som característico mais frequentemente relatado por testemunhas que sobreviveram a tornados muito próximos?",
     [
-      "Um apito agudo de flauta",
-      "Um estrondo contínuo parecido com um trem de carga ou jato acelerando",
-      "Um estalo silencioso",
-      "Música de percussão"
+      "Apito agudo e estridente",
+      "Estrondo contínuo de trem",
+      "Estalo sutil no ar",
+      "Batida forte de tambor"
     ],
     1,
     "O atrito do vento veloz contra árvores, casas e o chão gera um rugido ensurdecedor idêntico ao de uma locomotiva acelerando a poucos metros.",
@@ -801,10 +801,10 @@ const CURIOSIDADES_QUESTIONS = [
     2,
     "Por que tornados noturnos são proporcionalmente muito mais perigosos para as pessoas?",
     [
-      "Porque o vento é duas vezes mais rápido no escuro",
-      "Porque as pessoas estão dormindo e não conseguem ver o funil se aproximando",
-      "Porque eles geram fogo espontâneo",
-      "Porque nuvens descem mais à noite"
+      "O vento dobra de velocidade no escuro",
+      "As pessoas dormem e não veem o perigo",
+      "O funil produz combustão espontânea",
+      "As nuvens descem muito mais à noite"
     ],
     1,
     "A falta de visibilidade e o fato de grande parte da população estar dormindo reduzem o tempo de reação a alarmes de emergência.",
@@ -816,10 +816,10 @@ const CURIOSIDADES_QUESTIONS = [
     3,
     "O que é um 'gustnado'?",
     [
-      "Um tornado em mar aberto",
-      "Um pequeno vórtice efêmero gerado pela rajada de vento frontal de uma tempestade",
-      "Um tornado que congela a água",
-      "Um tipo de relâmpago que gira"
+      "Tornado comum em alto-mar",
+      "Vórtice gerado por rajada de vento",
+      "Tromba que congela água superficial",
+      "Relâmpago giratório de solo"
     ],
     1,
     "Gustnados não estão conectados à rotação da nuvem-mãe; eles nascem no solo devido ao choque de rajadas de vento frio descendente.",
@@ -846,10 +846,10 @@ const CURIOSIDADES_QUESTIONS = [
     2,
     "Qual é a coloração esverdeada que o céu frequentemente assume antes de supercélulas produzirem tornados severos?",
     [
-      "Reflexo da luz solar nas copas das árvores",
-      "Dispersão da luz avermelhada do pôr do sol através de nuvens carregadas de água e granizo",
-      "Poluição química do ar",
-      "Aurora boreal fora de época"
+      "Reflexo solar em florestas densas",
+      "Luz filtrada por granizo e água",
+      "Poluição química na baixa atmosfera",
+      "Aurora polar em latitude atípica"
     ],
     1,
     "Gotículas densas de água e pedras de granizo na tempestade filtram as ondas de luz vermelha e deixam passar tons verdes e azulados no fim da tarde.",
@@ -861,10 +861,10 @@ const CURIOSIDADES_QUESTIONS = [
     3,
     "Tornados podem levantar animais pesados como vacas e automóveis inteiros pelos ares?",
     [
-      "Não, apenas poeira e folhas",
-      "Sim, a força de sucção e ventos de mais de 300 km/h erguem facilmente carros e gado",
-      "Apenas se tiver água embaixo",
-      "Só se os animais pularem"
+      "Apenas poeira e detritos leves",
+      "Sim, erguem carros e animais",
+      "Somente se houver água em baixo",
+      "Apenas objetos soltos de metal"
     ],
     1,
     "Ventos de tornados intensos já arremessaram trens de trilhos, caminhões a centenas de metros e animais para o topo de telhados.",
@@ -891,10 +891,10 @@ const CURIOSIDADES_QUESTIONS = [
     2,
     "Qual é a diferença entre 'Alerta de Tornado' (Watch) e 'Aviso de Tornado' (Warning) nos serviços meteorológicos?",
     [
-      "São sinônimos idênticos",
-      "Watch indica condições favoráveis; Warning indica que um tornado já foi avistado ou detectado por radar",
-      "Warning é para chuva comum",
-      "Watch significa que o tornado já passou"
+      "São termos sinônimos",
+      "Watch é potencial; Warning é iminente",
+      "Warning é para chuva leve",
+      "Watch indica perigo passado"
     ],
     1,
     "O 'Watch' avisa para ficar atento; o 'Warning' avisa para correr para o abrigo imediatamente porque o perigo é iminente.",
@@ -908,7 +908,7 @@ const CURIOSIDADES_QUESTIONS = [
     [
       "Ford Model T",
       "Benz Patent-Motorwagen",
-      "Volkswagen Fusca",
+      "Volkswagen Sedan",
       "Chevrolet Opala"
     ],
     1,
@@ -1011,10 +1011,10 @@ const CURIOSIDADES_QUESTIONS = [
     1,
     "Por que o Volkswagen Sedan é carinhosamente chamado de 'Fusca' no Brasil?",
     [
-      "Pela cor de sua lataria original",
-      "Pela pronúncia popular e corruptela brasileira da palavra alemã 'Volks'",
-      "Em homenagem ao seu primeiro mecânico",
-      "Pelo barulho do cano de descarga"
+      "Pela cor de sua pintura inicial",
+      "Pela corruptela popular de Volks",
+      "Em honra ao primeiro mecânico",
+      "Pelo som típico do escapamento"
     ],
     1,
     "A pronúncia germânica 'Folks' foi sendo aportuguesada para 'Fölks' -> 'Fulca' -> até se consolidar como o icônico 'Fusca'.",
@@ -1026,10 +1026,10 @@ const CURIOSIDADES_QUESTIONS = [
     2,
     "Qual é a função básica do diferencial em um eixo de tração de um automóvel?",
     [
-      "Aumentar o volume do som",
-      "Permitir que as rodas externa e interna girem em velocidades diferentes nas curvas",
-      "Ligar o ar-condicionado",
-      "Resfriar a água do radiador"
+      "Aumentar potência do motor",
+      "Diferenciar giro das rodas nas curvas",
+      "Acionar a tração de ré",
+      "Resfriar os freios a disco"
     ],
     1,
     "Ao fazer uma curva, a roda de fora precisa percorrer um raio maior que a de dentro; o diferencial equilibra essa rotação sem travar as rodas.",
@@ -1041,10 +1041,10 @@ const CURIOSIDADES_QUESTIONS = [
     3,
     "O McLaren F1 de 1992 tinha um detalhe lendário no cofre do motor: qual metal precioso isolava o calor?",
     [
-      "Prata pura",
+      "Folhas de prata pura",
       "Folhas de ouro 24 quilates",
-      "Platina enriquecida",
-      "Titânio maciço"
+      "Placas de platina nobre",
+      "Painéis de titânio maciço"
     ],
     1,
     "O projetista Gordon Murray forrou o compartimento do motor com folhas de ouro autêntico por ser o melhor refletor térmico existente para proteger a fibra de carbono.",
@@ -1101,10 +1101,10 @@ const CURIOSIDADES_QUESTIONS = [
     1,
     "O que significa a sigla ABS no sistema de freios dos veículos modernos?",
     [
-      "Anti-lock Braking System (Sistema Antibloqueio de Frenagem)",
-      "Auto Brake Sensor",
-      "Airbag Braking System",
-      "Acelerador de Bordo Suave"
+      "Sistema de freio antibloqueio",
+      "Sensor automático de freio",
+      "Sistema de freio com airbag",
+      "Acelerador de frenagem suave"
     ],
     0,
     "O ABS modula a pressão do fluido de freio milissegundos por vez para evitar que os pneus travem e derrapem, mantendo a direção controlável.",
@@ -1117,9 +1117,9 @@ const CURIOSIDADES_QUESTIONS = [
     "Em qual famoso autódromo alemão de mais de 20 km de extensão e 73 curvas as montadoras testam o desempenho de seus carros?",
     [
       "Silverstone",
-      "Nürburgring Nordschleife ('Inferno Verde')",
-      "Monza",
-      "Interlagos"
+      "Nürburgring Nordschleife",
+      "Autódromo de Monza",
+      "Circuito de Interlagos"
     ],
     1,
     "Nürburgring Nordschleife é a pista mais exigente do mundo, carinhosamente apelidada por Jackie Stewart de 'Inferno Verde'.",
@@ -1177,9 +1177,9 @@ const CURIOSIDADES_QUESTIONS = [
     "O que mede o instrumento chamado 'tacômetro' (ou conta-giros) no painel do carro?",
     [
       "A velocidade em km/h",
-      "As rotações por minuto (RPM) do motor",
-      "A quantidade de óleo",
-      "A temperatura externa"
+      "As rotações do motor (RPM)",
+      "O nível de óleo lubrificante",
+      "A temperatura do radiador"
     ],
     1,
     "O tacômetro informa a velocidade de rotação do virabrequim do motor em giros por minuto (RPM).",
@@ -1221,10 +1221,10 @@ const CURIOSIDADES_QUESTIONS = [
     2,
     "Qual é a origem do famoso 'Cavallino Rampante' (o cavalo preto empinado) do logotipo da Ferrari?",
     [
-      "Um prêmio de corrida de cavalos",
-      "O símbolo pintado no caça do aviador italiano Francesco Baracca na 1ª Guerra",
-      "O cavalo de fazenda de Enzo Ferrari",
-      "Uma homenagem à polícia montada"
+      "Troféu de corrida de cavalos",
+      "Caça do aviador Francesco Baracca",
+      "Cavalo da fazenda do fundador",
+      "Insígnia da cavalaria militar"
     ],
     1,
     "A mãe do herói aviador Baracca sugeriu a Enzo Ferrari colocar o cavalo rampante em seus carros para lhe trazer boa sorte.",
@@ -1236,10 +1236,10 @@ const CURIOSIDADES_QUESTIONS = [
     1,
     "O que representam os quatro anéis entrelaçados no logotipo da montadora alemã Audi?",
     [
-      "As quatro rodas do carro",
-      "A fusão de quatro montadoras alemãs em 1932 (Auto Union)",
-      "Os quatro motores a pistão",
-      "Os quatro cantos da Alemanha"
+      "As quatro rodas do veículo",
+      "Fusão de quatro marcas alemãs",
+      "Os quatro pistões do motor",
+      "Os quatro estados fundadores"
     ],
     1,
     "Os anéis simbolizam a união de Audi, DKW, Horch e Wanderer, que formaram a Auto Union.",
@@ -1281,10 +1281,10 @@ const CURIOSIDADES_QUESTIONS = [
     2,
     "Por que o logotipo da BMW tem as cores azul e branca dispostas em quatro quadrantes?",
     [
-      "Simboliza o céu e o mar",
-      "São as cores oficiais da bandeira do estado da Baviera",
-      "Homenagem aos olhos do fundador",
-      "Representa gelo e eletricidade"
+      "O reflexo do céu no mar",
+      "As cores da bandeira da Baviera",
+      "As cores dos olhos do criador",
+      "O gelo e a eletricidade pura"
     ],
     1,
     "A BMW nasceu na Baviera (Bayerische Motoren Werke); o mito de que representava uma hélice de avião foi criado em um anúncio anos depois.",
@@ -1326,10 +1326,10 @@ const CURIOSIDADES_QUESTIONS = [
     2,
     "Qual foi o motivo da criação da marca de luxo Lexus pela Toyota e da Acura pela Honda nos anos 1980?",
     [
-      "Competir com BMW e Mercedes no mercado norte-americano com imagem premium",
-      "Fazer carros mais baratos",
-      "Vender caminhões",
-      "Fugir de impostos no Japão"
+      "Disputar o mercado de luxo dos EUA",
+      "Fabricar veículos populares baratos",
+      "Entrar no transporte de cargas",
+      "Evitar tarifas alfandegárias locais"
     ],
     0,
     "As marcas japonesas criaram divisões de luxo exclusivas para atrair clientes premium ocidentais que viam as marcas originais como populares.",
@@ -1446,10 +1446,10 @@ const CURIOSIDADES_QUESTIONS = [
     1,
     "Qual marca norte-americana de utilitários 4x4 se originou como veículo militar leve na Segunda Guerra Mundial em 1941?",
     [
-      "Hummer",
-      "Jeep (Willys-Overland)",
-      "Cadillac",
-      "Chevrolet"
+      "Hummer H1",
+      "Jeep Willys",
+      "Cadillac Brougham",
+      "Chevrolet Fleetline"
     ],
     1,
     "O Willys MB foi tão crucial para as forças aliadas que o general Eisenhower o considerou uma das armas vitais para vencer a guerra.",
@@ -1507,12 +1507,12 @@ const CURIOSIDADES_QUESTIONS = [
     "Qual é o ponto mais isolado do planeta nos oceanos, tão distante de qualquer terra que os humanos mais próximos costumam ser os astronautas na Estação Espacial?",
     [
       "Fossa das Marianas",
-      "Ponto Nemo (Polo Oceânico de Inacessibilidade)",
+      "Ponto Nemo",
       "Ilha de Páscoa",
       "Cabo Horn"
     ],
     1,
-    "O Ponto Nemo fica no Pacífico Sul a 2.688 km da terra firme mais próxima. Os astronautas na órbita a 400 km de altitude passam mais perto do que qualquer habitante terrestre!",
+    "O Ponto Nemo (Polo Oceânico de Inacessibilidade) fica no Pacífico Sul a 2.688 km da terra firme mais próxima. Os astronautas na órbita passam mais perto do que qualquer pessoa na Terra!",
     "Leva o nome do célebre capitão submarino de Júlio Verne."
   ],
   [
@@ -1582,12 +1582,12 @@ const CURIOSIDADES_QUESTIONS = [
     "Qual deserto é o mais seco do mundo sem ser polar, onde certas estações meteorológicas nunca registraram uma gota de chuva?",
     [
       "Deserto do Saara",
-      "Deserto de Atacama (Chile)",
+      "Deserto do Atacama",
       "Deserto de Gobi",
       "Deserto da Namíbia"
     ],
     1,
-    "O Atacama é bloqueado pela Cordilheira dos Andes e pela corrente fria de Humboldt, criando uma aridez tão extrema que a NASA o usa para testar veículos para Marte.",
+    "O Deserto de Atacama no Chile é bloqueado pelos Andes e pela corrente fria de Humboldt, criando uma aridez tão extrema que a NASA o usa para testar sondas de Marte.",
     "Fica no norte do Chile."
   ],
   [
@@ -1626,13 +1626,13 @@ const CURIOSIDADES_QUESTIONS = [
     2,
     "Qual é o ponto mais profundo conhecido de todos os oceanos, localizado na Fossa das Marianas?",
     [
-      "Depressão Challenger (quase 11.000 m)",
+      "Depressão Challenger",
       "Fossa de Porto Rico",
       "Fossa de Java",
       "Depressão de Tonga"
     ],
     0,
-    "A Depressão Challenger atinge cerca de 10.994 metros de profundidade. Se colocássemos o Monte Everest ali, seu pico ainda ficaria a 2 km abaixo d'água!",
+    "A Depressão Challenger na Fossa das Marianas atinge quase 11.000 metros de profundidade. Se o Everest ficasse ali, seu pico ficaria a 2 km abaixo d'água!",
     "Tem o nome do navio HMS Challenger."
   ],
   [
@@ -1717,12 +1717,12 @@ const CURIOSIDADES_QUESTIONS = [
     "Qual cachoeira na Venezuela é a mais alta queda d'água ininterrupta do mundo, despencando de quase 1.000 metros de altura?",
     [
       "Cataratas do Niágara",
-      "Salto Ángel (Kerepakupai Merú)",
+      "Salto Ángel",
       "Cataratas do Iguaçu",
       "Cataratas Vitória"
     ],
     1,
-    "O Salto Ángel despenca de um imenso platô rochoso (tepui) na Amazônia venezuelana por 979 metros sem interrupções!",
+    "O Salto Ángel (Kerepakupai Merú) na Venezuela despenca de um tepui por 979 metros sem interrupções.",
     "Batizado em homenagem ao aviador Jimmy Angel."
   ],
   [
@@ -1926,13 +1926,13 @@ const CURIOSIDADES_QUESTIONS = [
     1,
     "Quem foi o líder inconfidente executado no Rio de Janeiro em 21 de abril de 1792, tornando-se mártir cívico do Brasil?",
     [
-      "Tiradentes (Joaquim José da Silva Xavier)",
-      "Tomás Antônio Gonzaga",
-      "Cláudio Manuel da Costa",
+      "Tiradentes",
+      "Tomás Gonzaga",
+      "Cláudio Manuel",
       "Padre Rolim"
     ],
     0,
-    "Alferes de cavalaria e prático de dentista, Tiradentes foi o único condenado à morte na conspiração mineira contra a Coroa portuguesa.",
+    "Joaquim José da Silva Xavier, o Tiradentes, foi o único inconfidente condenado à morte e executado no Rio em 1792.",
     "Tinha o apelido ligado à extração de dentes."
   ],
   [
@@ -1957,12 +1957,12 @@ const CURIOSIDADES_QUESTIONS = [
     "Qual foi o maior e mais sangrento conflito armado entre nações da história da América do Sul, ocorrido entre 1864 e 1870?",
     [
       "Guerra do Chaco",
-      "Guerra da Tríplice Aliança (Guerra do Paraguai)",
+      "Guerra do Paraguai",
       "Guerra do Pacífico",
       "Guerra Cisplatina"
     ],
     1,
-    "Brasil, Argentina e Uruguai formaram a Tríplice Aliança contra as forças do presidente paraguaio Francisco Solano López.",
+    "A Guerra do Paraguai (ou da Tríplice Aliança) reuniu Brasil, Argentina e Uruguai contra as forças do presidente Francisco Solano López.",
     "Conhecida como Guerra do Paraguai."
   ],
   [
@@ -1987,12 +1987,12 @@ const CURIOSIDADES_QUESTIONS = [
     "A compra do território do atual estado do Acre da Bolívia pelo Brasil em 1903 foi negociada por qual diplomata ilustre?",
     [
       "Rui Barbosa",
-      "Barão do Rio Branco (José Maria da Silva Paranhos Jr.)",
+      "Barão do Rio Branco",
       "Joaquim Murtinho",
       "Visconde de Mauá"
     ],
     1,
-    "O Barão do Rio Branco negociou o Tratado de Petrópolis, pagando 2 milhões de libras esterlinas e construindo a ferrovia Madeira-Mamoré.",
+    "O Barão do Rio Branco (José Maria da Silva Paranhos Jr.) negociou o Tratado de Petrópolis em 1903, incorporando o Acre ao Brasil.",
     "Patrono da diplomacia brasileira."
   ],
   [
@@ -2002,12 +2002,12 @@ const CURIOSIDADES_QUESTIONS = [
     "A mais longa rebelião provincial do Brasil Imperial, que durou de 1835 a 1845 no Rio Grande do Sul, foi chamada de:",
     [
       "Cabanagem",
-      "Guerra dos Farrapos (Revolução Farroupilha)",
+      "Guerra dos Farrapos",
       "Balaiada",
       "Sabinada"
     ],
     1,
-    "Farroupilhas proclamaram as repúblicas Rio-Grandense e Juliana até o acordo de paz costurado pelo futuro Duque de Caxias.",
+    "A Guerra dos Farrapos (Revolução Farroupilha) durou 10 anos no Rio Grande do Sul, proclamando repúblicas até o acordo com o Império.",
     "Famosa revolução dos 'farroupilhas'."
   ],
   [
@@ -2046,13 +2046,13 @@ const CURIOSIDADES_QUESTIONS = [
     3,
     "Qual pioneiro industrial e banqueiro do século XIX financiou a primeira ferrovia, iluminação a gás e cabos submarinos do Brasil?",
     [
-      "Barão de Mauá (Irineu Evangelista de Sousa)",
+      "Barão de Mauá",
       "Conde d'Eu",
       "Barão de Vassouras",
       "Visconde de Taunay"
     ],
     0,
-    "O Barão de Mauá foi o grande visionário da industrialização no Brasil Imperial, fundando estaleiros, bancos e ferrovias.",
+    "Irineu Evangelista de Sousa, o Barão de Mauá, foi o pioneiro da modernização e infraestrutura no Brasil Imperial.",
     "Tornou-se Visconde com Grandeza."
   ],
   [
@@ -2182,12 +2182,12 @@ const CURIOSIDADES_QUESTIONS = [
     "Qual é a maior reserva subterrânea de água doce do mundo totalmente confinada em território brasileiro?",
     [
       "Aquífero Guarani",
-      "Sistema Aquífero Grande Amazônia (SAGA / Alter do Chão)",
+      "Aquífero Alter do Chão",
       "Aquífero Cabeças",
       "Aquífero Bauru"
     ],
     1,
-    "O aquífero Alter do Chão (integrante do SAGA) possui mais de 160 trilhões de metros cúbicos de água potável, superando o Guarani em volume útil.",
+    "O Sistema Aquífero Grande Amazônia (SAGA / Alter do Chão) é totalmente nacional e possui mais de 160 trilhões de m³ de água potável.",
     "Fica sob o subsolo da Amazônia."
   ],
   [
@@ -2241,13 +2241,13 @@ const CURIOSIDADES_QUESTIONS = [
     2,
     "O impressionante encontro das águas escuras do Rio Negro com as águas barrentas do Rio Solimões em Manaus não se mistura de imediato devido a:",
     [
-      "Presença de óleo mineral",
-      "Diferenças de temperatura, densidade e velocidade da correnteza",
-      "Magia indígena antiga",
-      "Presença de sal marinho"
+      "Diferença de salinidade pura",
+      "Diferenças de densidade e vazão",
+      "Presença de compostos de enxofre",
+      "Diferença de pressão hidrostática"
     ],
     1,
-    "O Rio Negro é mais quente (28°C) e lento (2 km/h); o Solimões é mais frio (22°C) e rápido (4 a 6 km/h), correndo lado a lado por mais de 6 km sem se misturar.",
+    "O Rio Negro é mais quente e lento, enquanto o Solimões é mais frio e rápido, correndo lado a lado por quilômetros sem se misturar de imediato.",
     "Diferenças físicas de temperatura e velocidade."
   ],
   [
@@ -2272,12 +2272,12 @@ const CURIOSIDADES_QUESTIONS = [
     "A Serra da Canastra em Minas Gerais é célebre por abrigar a nascente histórica de qual grande rio nacional?",
     [
       "Rio Paraná",
-      "Rio São Francisco ('Velho Chico')",
+      "Rio São Francisco",
       "Rio Tocantins",
       "Rio Doce"
     ],
     1,
-    "O Rio São Francisco nasce em São Roque de Minas na Canastra e percorre cinco estados até desaguar no Oceano Atlântico.",
+    "O Rio São Francisco (o 'Velho Chico') nasce na Serra da Canastra em Minas Gerais e atravessa cinco estados.",
     "Conhecido carinhosamente como o 'Velho Chico'."
   ],
   [
@@ -2304,7 +2304,7 @@ const CURIOSIDADES_QUESTIONS = [
       "Goiás e Tocantins",
       "Mato Grosso e Mato Grosso do Sul",
       "Paraná e Santa Catarina",
-      "Bahia e Minas Gerais"
+      "Amazonas e Rondônia"
     ],
     1,
     "O bioma pantaneiro é compartilhado entre MT e MS, além de adentrar partes da Bolívia e do Paraguai.",
@@ -2422,12 +2422,12 @@ const CURIOSIDADES_QUESTIONS = [
     "Por que o céu diurno da Terra parece predominantemente azul aos nossos olhos?",
     [
       "Reflexo dos oceanos azuis",
-      "Espalhamento de Rayleigh da luz solar de menor comprimento de onda pelos gases da atmosfera",
-      "Gás oxigênio líquido no céu",
-      "Presença de ozônio concentrado"
+      "Espalhamento Rayleigh da luz",
+      "Presença de oxigênio líquido",
+      "Absorção pela camada de ozônio"
     ],
     1,
-    "Moléculas de nitrogênio e oxigênio dispersam muito mais a luz azul (comprimento de onda curto) em todas as direções do que a luz vermelha.",
+    "Gases da atmosfera dispersam com mais facilidade comprimentos de onda curtos (luz azul) do que compridos, fenômeno descrito por Lord Rayleigh.",
     "Processo óptico chamado Espalhamento de Rayleigh."
   ],
   [
@@ -2467,12 +2467,12 @@ const CURIOSIDADES_QUESTIONS = [
     "Qual ser microscópico com oito patas é famoso por sobreviver ao vácuo do espaço, radiação extrema, congelamento e fervura?",
     [
       "Paramécio",
-      "Tardígrado (Urso-d'água)",
+      "Tardígrado",
       "Ácaro",
       "Nematódeo"
     ],
     1,
-    "Em estado de criptobiose, os tardígrados desidratam quase 99% do corpo e suportam temperaturas de -272°C a +150°C e o vácuo sideral!",
+    "O tardígrado (urso-d'água) entra em estado de criptobiose e resiste a dessecação quase total, temperaturas extremas e até ao vácuo do espaço.",
     "Também chamado de 'Urso-d'água'."
   ],
   [
@@ -2497,12 +2497,12 @@ const CURIOSIDADES_QUESTIONS = [
     "O que diz a Terceira Lei do Movimento formulada por Sir Isaac Newton?",
     [
       "Aceleração é proporcional à força",
-      "Para toda ação existe uma reação de mesma intensidade, mesma direção e sentido oposto",
-      "A inércia mantém corpos parados",
-      "A gravidade atrai as massas"
+      "Para toda ação há uma reação oposta",
+      "A inércia preserva o movimento",
+      "A gravidade atrai todas as massas"
     ],
     1,
-    "A lei da Ação e Reação explica como foguetes decolam, peixes nadam e como nós conseguimos caminhar empurrando o chão para trás.",
+    "A Terceira Lei de Newton enuncia que a toda ação corresponde uma reação de mesma intensidade e direção, com sentido oposto.",
     "A famosa lei da Ação e Reação."
   ],
   [
@@ -2512,7 +2512,7 @@ const CURIOSIDADES_QUESTIONS = [
     "Qual é o gás que compõe a maior parte da atmosfera que respiramos na Terra (cerca de 78%)?",
     [
       "Oxigênio",
-      "Nitrogênio (ou Azoto)",
+      "Nitrogênio",
       "Gás carbônico",
       "Argônio"
     ],
@@ -2572,12 +2572,12 @@ const CURIOSIDADES_QUESTIONS = [
     "O que acontece com o tempo de um relógio que se desloca em velocidade próxima à da luz em relação a um relógio parado?",
     [
       "O tempo passa mais rápido",
-      "O tempo passa mais devagar (dilatação temporal)",
+      "O tempo passa mais devagar",
       "O tempo para de existir",
-      "O relógio anda para trás"
+      "O tempo corre para trás"
     ],
     1,
-    "Previsto pela Teoria da Relatividade de Einstein, a dilatação do tempo faz com que viajantes ultrarrápidos envelheçam mais devagar que quem ficou para trás.",
+    "Pela Teoria da Relatividade Especial, a dilatação temporal faz com que relógios em alta velocidade passem mais devagar em relação a um referencial parado.",
     "O tempo se dilata e passa mais devagar."
   ],
   [
@@ -2617,12 +2617,12 @@ const CURIOSIDADES_QUESTIONS = [
     "Qual é a temperatura teórica mais baixa possível em todo o cosmos, na qual as partículas atingem energia cinética mínima?",
     [
       "-100 °C",
-      "-273,15 °C (Zero Absoluto ou 0 Kelvin)",
+      "-273,15 °C",
       "-500 °C",
       "-1.000 °C"
     ],
     1,
-    "No Zero Absoluto (0 K ou -273,15 °C), o movimento térmico atômico quase cessa por completo segundo a termodinâmica.",
+    "O Zero Absoluto corresponde a 0 Kelvin ou -273,15 °C, ponto em que o movimento térmico atômico atinge o mínimo teórico permitido.",
     "Chamado de Zero Absoluto na escala Kelvin."
   ],
   [
@@ -2691,13 +2691,13 @@ const CURIOSIDADES_QUESTIONS = [
     2,
     "Por que cortar cebola faz as pessoas chorarem?",
     [
-      "Pelo cheiro forte apenas",
-      "Porque libera um gás à base de enxofre que reage com a umidade dos olhos formando ácido suave",
-      "Porque ela tem espinhos microscópicos",
-      "Porque altera a pressão do ar"
+      "Pelo odor pungente do vegetal",
+      "Pelo gás que reage nas lágrimas",
+      "Pela presença de espinhos finos",
+      "Pela liberação de vapor térmico"
     ],
     1,
-    "Ao romper as células da cebola, enzimas formam o gás sulfóxido tiopropanal, que ativa as glândulas lacrimais de defesa.",
+    "Ao cortar a cebola, enzimas rompem compostos que formam um gás à base de enxofre, irritando os olhos e estimulando o choro protetor.",
     "Gás com enxofre que irrita as lágrimas."
   ],
   [
@@ -2706,13 +2706,13 @@ const CURIOSIDADES_QUESTIONS = [
     2,
     "Qual foi a origem literal da palavra 'Bug' usada para descrever falhas em sistemas de computador?",
     [
-      "Uma sigla militar secreta",
-      "Uma mariposa de verdade que entrou em um relé do computador Harvard Mark II em 1947",
-      "O sobrenome de um programador",
-      "Um erro de cálculo na NASA"
+      "Uma sigla militar confidencial",
+      "Uma mariposa presa em um relé",
+      "O codinome do programador-chefe",
+      "Um erro de cálculo de trajetória"
     ],
     1,
-    "A pioneira Grace Hopper registrou no diário de bordo a remoção de uma mariposa presa nos contatos do computador mecânico com a anotação: 'Primeiro caso real de inseto (bug) encontrado'.",
+    "Em 1947, a equipe de Grace Hopper encontrou uma mariposa de verdade presa nos contatos do computador eletromecânico Harvard Mark II.",
     "Um inseto real preso nos fios do computador."
   ],
   [
@@ -2721,13 +2721,13 @@ const CURIOSIDADES_QUESTIONS = [
     1,
     "De qual material inusitado foi feito o primeiro mouse de computador do mundo inventado por Douglas Engelbart em 1964?",
     [
-      "Plástico rígido",
-      "Bloco de madeira com rodinhas de metal",
-      "Alumínio fundido",
-      "Cerâmica esmaltada"
+      "Plástico rígido moldado",
+      "Bloco de madeira com rodas",
+      "Alumínio fundido polido",
+      "Cerâmica esmaltada fosca"
     ],
     1,
-    "Engelbart esculpiu uma caixa de madeira artesanal com um botão na parte superior e duas rodas metálicas internas perpendiculares.",
+    "Douglas Engelbart talhou o protótipo do mouse em um bloco de madeira com um botão e duas rodas metálicas internas em 1964.",
     "Material ecológico que vem de árvores."
   ],
   [
@@ -2736,13 +2736,13 @@ const CURIOSIDADES_QUESTIONS = [
     2,
     "Qual foi o primeiro produto comercial do mundo a ser escaneado por um leitor de código de barras a laser em 1974?",
     [
-      "Um pacote de chicletes Wrigley's sabor menta",
-      "Uma garrafa de refrigerante",
-      "Um livro de matemática",
-      "Uma lata de sopa"
+      "Pacote de chicletes",
+      "Garrafa de refrigerante",
+      "Livro didático escolar",
+      "Lata de sopa de tomate"
     ],
     0,
-    "O código Universal de Produto (UPC) estreou em um supermercado em Troy, Ohio, escaneando uma embalagem de chicletes de 10 unidades.",
+    "Uma embalagem de chicletes Wrigley's de menta foi o primeiro item escaneado por código de barras a laser em 1974 em Ohio.",
     "Um chiclete mastigável."
   ],
   [
@@ -2766,13 +2766,13 @@ const CURIOSIDADES_QUESTIONS = [
     1,
     "O que significa a sigla mundial 'Wi-Fi' usada para redes de internet sem fio?",
     [
-      "Wireless Fidelity (Fidelidade Sem Fio - criada como nome comercial)",
+      "Wireless Fidelity",
       "Wide Frequency Internet",
       "World Interface Fiber",
       "Web Information Format"
     ],
     0,
-    "O termo foi criado por uma agência de branding para a Wireless Ethernet Compatibility Alliance porque soava moderno e lembrava a expressão 'hi-fi'.",
+    "A sigla Wi-Fi foi criada comercialmente para soar atraente ao consumidor e fazer rima com a famosa expressão 'Hi-Fi'.",
     "Marca comercial associada a som e wireless."
   ],
   [
@@ -2841,13 +2841,13 @@ const CURIOSIDADES_QUESTIONS = [
     1,
     "Qual empresa desenvolveu o sistema operacional Android antes de ser adquirida pela Google em 2005?",
     [
-      "Android Inc. (fundada por Andy Rubin)",
-      "Microsoft",
-      "Samsung",
-      "Sony"
+      "Android Inc.",
+      "Microsoft Corp.",
+      "Samsung Group",
+      "Sony Mobile"
     ],
     0,
-    "Andy Rubin, Rich Miner e Nick Sears fundaram a Android Inc. originalmente para criar um sistema operacional para câmeras digitais!",
+    "Andy Rubin fundou a Android Inc. em 2003, que foi comprada pela Google em 2005 para revolucionar os sistemas móveis.",
     "Fundada por Andy Rubin."
   ],
   [
@@ -2931,13 +2931,13 @@ const CURIOSIDADES_QUESTIONS = [
     3,
     "Qual foi a capacidade de memória RAM do computador de navegação da Apollo 11 (AGC) que levou a humanidade à Lua em 1969?",
     [
-      "Cerca de 4 Kilobytes de RAM",
-      "1 Megabyte",
-      "512 Megabytes",
-      "4 Gigabytes"
+      "Cerca de 4 KB de RAM",
+      "Cerca de 1 MB de RAM",
+      "Cerca de 512 MB de RAM",
+      "Cerca de 4 GB de RAM"
     ],
     0,
-    "O computador da Apollo tinha cerca de 4 KB de memória de trabalho e 72 KB de ROM tecida à mão com fios de cobre por costureiras industriais!",
+    "O computador de orientação da Apollo 11 operava com apenas cerca de 4 Kilobytes de memória RAM e 72 KB de ROM!",
     "Menos memória do que uma foto pequena de WhatsApp."
   ],
   [
@@ -2961,13 +2961,13 @@ const CURIOSIDADES_QUESTIONS = [
     2,
     "Por que os cabos de fibra óptica transmitem dados à velocidade da luz sem vazar sinal pelas paredes do cabo?",
     [
-      "Por blindagem de chumbo",
-      "Pelo princípio da reflexão interna total da luz no núcleo de vidro",
-      "Por campos magnéticos refrigerados",
-      "Porque o vidro é opaco"
+      "Por blindagem densa de chumbo",
+      "Por reflexão interna total da luz",
+      "Por campos magnéticos de vácuo",
+      "Por absorção química das paredes"
     ],
     1,
-    "A luz é disparada em um ângulo tão raso dentro do vidro ultra-puro que bate e reflete continuamente por reflexão interna total por dezenas de quilômetros.",
+    "O feixe de laser incide num ângulo que não refrata para fora do vidro, propagando-se por reflexão interna total ao longo do cabo.",
     "Reflexão interna total."
   ],
   [
@@ -2992,12 +2992,12 @@ const CURIOSIDADES_QUESTIONS = [
     "Qual foi a primeira mensagem enviada entre dois computadores na rede precursora da internet (ARPANET) em 1969?",
     [
       "HELLO WORLD",
-      "LOGIN (o sistema caiu na terceira letra, enviando apenas 'LO')",
+      "LOGIN (enviou 'LO')",
       "INTERNET ON",
-      "TEST 123"
+      "SYSTEM TEST"
     ],
     1,
-    "A equipe tentou digitar 'LOGIN', mas após as letras L e O o sistema travou, fazendo de 'LO' a primeiríssima transmissão da história da internet!",
+    "A equipe tentou digitar 'LOGIN' entre a UCLA e Stanford em 1969, mas a conexão caiu na terceira letra, enviando apenas 'LO'!",
     "Tentaram enviar LOGIN e o sistema caiu no meio."
   ],
   [
@@ -3006,13 +3006,13 @@ const CURIOSIDADES_QUESTIONS = [
     2,
     "Qual pequeno crustáceo marinho desfere um soco tão veloz que quebra vidros de aquário e ferve a água ao redor momentaneamente?",
     [
-      "Camarão-pistola / Camarão-mantis (Stomatopoda)",
+      "Camarão-mantis",
       "Caranguejo-ermitão",
       "Lagosta-boxeadora",
-      "Krill"
+      "Krill antártico"
     ],
     0,
-    "O camarão-mantis acelera suas patas com a velocidade de um tiro de calibre .22, gerando bolhas de cavitação que atingem milhares de graus!",
+    "O camarão-mantis (Stomatopoda) acelera suas patas com a velocidade de um tiro de calibre .22, gerando bolhas de cavitação que atingem milhares de graus!",
     "Conhecido como camarão-mantis ou camarão-boxeador."
   ],
   [
@@ -3141,13 +3141,13 @@ const CURIOSIDADES_QUESTIONS = [
     2,
     "Por que os flamingos têm penas cor-de-rosa se eles nascem com penugem cinzenta?",
     [
-      "Pelo sol escaldante",
-      "Pela alimentação rica em carotenoides presentes em algas e pequenos camarões",
-      "Por hormônios da idade adulta",
-      "Para assustar predadores"
+      "Pela exposição solar",
+      "Pela ingestão de carotenoides",
+      "Por hormônios da fase adulta",
+      "Para afugentar predadores"
     ],
     1,
-    "Se criados em cativeiro sem alimentos ricos em betacaroteno e cantaxantina, os flamingos perdem a cor rosada e ficam brancos.",
+    "A penugem dos flamingos é cinzenta ao nascer; eles adquirem a coloração rosa pela alimentação rica em pigmentos carotenoides presentes em algas e microcrustáceos.",
     "Pigmentos carotenoides da comida."
   ],
   [
@@ -3156,13 +3156,13 @@ const CURIOSIDADES_QUESTIONS = [
     3,
     "O sangue azul do caranguejo-ferradura (Límulo) é vital para a medicina moderna mundial porque:",
     [
-      "Cura o câncer",
-      "Contém amebócitos que coagulam instantaneamente na presença de endotoxinas bacterianas perigosas",
-      "Substitui o sangue humano em transfusões",
-      "É rico em vitaminas raras"
+      "Cura o câncer humano",
+      "Coagula na presença de endotoxinas bacterianas",
+      "Substitui sangue em transfusões",
+      "Concentra vitaminas raras"
     ],
     1,
-    "O reagente LAL extraído do seu sangue azul é usado para testar a esterilidade de todas as vacinas e medicamentos injetáveis do planeta.",
+    "O sangue azul do límulo contém amebócitos que formam um coágulo imediato na presença de endotoxinas de bactérias, sendo o padrão ouro para testar injetáveis e vacinas.",
     "Detecta bactérias em vacinas e remédios."
   ],
   [
@@ -3186,10 +3186,10 @@ const CURIOSIDADES_QUESTIONS = [
     2,
     "As listras pretas e brancas de cada zebra são tão únicas quanto:",
     [
-      "O tamanho das patas",
-      "A impressão digital dos seres humanos",
-      "A cor dos dentes",
-      "A velocidade da corrida"
+      "Ao tamanho das patas",
+      "À impressão digital humana",
+      "À coloração dos dentes",
+      "Ao ritmo da corrida"
     ],
     1,
     "Não existem duas zebras com o mesmo padrão de listras no mundo; o padrão ajuda no reconhecimento individual e confunde moscas e predadores.",
@@ -3231,13 +3231,13 @@ const CURIOSIDADES_QUESTIONS = [
     2,
     "Qual animal produz o veneno mais letal do reino animal, capaz de matar 60 humanos adultos com uma única dose em minutos?",
     [
-      "Cobra Naja",
-      "Vespa-do-mar (Água-viva Chironex fleckeri)",
+      "Cobra naja",
+      "Vespa-do-mar",
       "Sapo ponta-de-flecha",
       "Aranha-armadeira"
     ],
     1,
-    "Nativa do norte da Austrália, seus tentáculos transparentes de até 3 metros causam paralisia cardíaca fulminante em quem esbarra neles.",
+    "A vespa-do-mar (Chironex fleckeri), uma água-viva-caixa da Austrália, possui tentáculos com toxinas cardiotóxicas capazes de matar um humano adulto em poucos minutos.",
     "Água-viva australiana com forma de caixa."
   ],
   [
@@ -3247,12 +3247,12 @@ const CURIOSIDADES_QUESTIONS = [
     "Os golfinhos usam qual sistema sofisticado de navegação que emite cliques sonoros e escuta o eco para 'ver' objetos no escuro?",
     [
       "Magnetismo solar",
-      "Ecolocalização (Biossonar)",
+      "Ecolocalização",
       "Termovisão",
       "Olfato submarino"
     ],
     1,
-    "O biossonar dos golfinhos permite identificar a densidade, tamanho e forma de peixes a centenas de metros sob a água turva.",
+    "A ecolocalização (biossonar) dos golfinhos funciona emitindo cliques de alta frequência que rebatem em obstáculos e presas, permitindo mapear o ambiente com precisão.",
     "Emite som e lê o eco de volta."
   ],
   [
@@ -3321,13 +3321,13 @@ const CURIOSIDADES_QUESTIONS = [
     2,
     "Por que a Torre Eiffel de metal em Paris cresce cerca de 15 cm de altura durante os meses quentes do verão europeu?",
     [
-      "Pelo crescimento das fundações",
-      "Pela dilatação térmica do ferro com o calor solar",
-      "Pelo vento que sopra para cima",
-      "Pelo peso dos turistas no inverno"
+      "Pelo assentamento do solo",
+      "Pela dilatação térmica do ferro",
+      "Pelo vento ascendente",
+      "Pelo gelo acumulado no topo"
     ],
     1,
-    "O calor faz as moléculas do ferro vibrarem com mais intensidade e ocuparem mais espaço, expandindo a estrutura metálica de 300 metros.",
+    "O ferro da Torre Eiffel se expande com o calor do verão europeu por dilatação térmica, aumentando a altura da estrutura em cerca de 15 centímetros.",
     "Fenômeno da física chamado dilatação térmica."
   ],
   [
@@ -3336,13 +3336,13 @@ const CURIOSIDADES_QUESTIONS = [
     2,
     "Por que as letras dos teclados de computador e celulares seguem a ordem 'QWERTY' em vez da ordem alfabética ABCD?",
     [
-      "Para escrever mais rápido",
-      "Para evitar que as hastes mecânicas das antigas máquinas de escrever travassem ao digitar letras frequentes juntas",
-      "Por exigência da corte inglesa",
-      "Por sorteio aleatório"
+      "Para digitar com mais rapidez",
+      "Para evitar o travamento de hastes mecânicas",
+      "Por decreto da realeza inglesa",
+      "Por sorteio aleatório das teclas"
     ],
     1,
-    "Christopher Sholes projetou o layout em 1873 separando pares de letras comuns na língua inglesa para diminuir o emperramento mecânico das teclas.",
+    "O layout QWERTY foi patenteado em 1873 para separar pares de letras muito frequentes no inglês, impedindo que as hastes das máquinas de escrever emperrassem.",
     "Desenhado para antigas máquinas de escrever."
   ],
   [
@@ -3367,12 +3367,12 @@ const CURIOSIDADES_QUESTIONS = [
     "Qual animal tem a capacidade de regenerar membros inteiros, cauda, olhos e até partes do coração e cérebro quando ferido?",
     [
       "Sapo-cururu",
-      "Axolote (Salamandra mexicana)",
+      "Axolote",
       "Camaleão",
       "Cobra-coral"
     ],
     1,
-    "O axolote (Ambystoma mexicanum) retém características larvais na vida adulta e consegue reconstruir tecidos complexos sem deixar cicatrizes.",
+    "O axolote (Ambystoma mexicanum) retém características larvais na vida adulta e consegue regenerar membros, tecidos cardíacos e partes do sistema nervoso sem cicatrizes.",
     "Famosa salamandra aquática mexicana com brânquias externas."
   ],
   [
@@ -3397,12 +3397,12 @@ const CURIOSIDADES_QUESTIONS = [
     "Qual jogo de tabuleiro clássico foi criado no início do século XX como uma crítica ferrenha contra os perigos dos monopólios imobiliários predatórios?",
     [
       "War",
-      "Monopoly (Banco Imobiliário)",
+      "Monopoly",
       "Jogo da Vida",
       "Detetive"
     ],
     1,
-    "Elizabeth Magie patenteou 'The Landlord's Game' em 1904 para alertar sobre como os grandes donos de terras exploravam os inquilinos.",
+    "Elizabeth Magie criou 'The Landlord's Game' em 1904 como um manifesto educativo contra a especulação e o monopólio da terra, dando origem posterior ao Monopoly.",
     "Comprar casas e hotéis nas ruas."
   ],
   [
@@ -3412,12 +3412,12 @@ const CURIOSIDADES_QUESTIONS = [
     "Por que os astronautas no espaço voltam para a Terra cerca de 3 a 5 cm mais altos do que quando partiram?",
     [
       "Pela comida liofilizada",
-      "Porque a coluna vertebral se descomprime sem a gravidade empurrando as vértebras para baixo",
-      "Pelo capacete puxando a cabeça",
-      "Por ilusão de ótica"
+      "Pela descompressão das vértebras",
+      "Pelo capacete pressurizado",
+      "Por efeito de ilusão óptica"
     ],
     1,
-    "Na microgravidade, os discos cartilaginosos entre as vértebras se expandem; ao retornar à gravidade da Terra, a coluna volta à altura normal em poucas semanas.",
+    "Na ausência do peso constante da gravidade terrestre, os discos intervertebrais se expandem na microgravidade, fazendo astronautas crescerem de 3 a 5 cm temporariamente.",
     "A gravidade não comprime as vértebras no espaço."
   ],
   [
@@ -3486,13 +3486,13 @@ const CURIOSIDADES_QUESTIONS = [
     1,
     "Quantos corações tem uma minhoca comum da terra?",
     [
-      "1",
-      "5 pares (10 arcos aórticos)",
-      "Nenhum",
-      "3"
+      "1 coração único",
+      "5 pares de arcos aórticos",
+      "Nenhum coração",
+      "3 ventrículos"
     ],
     1,
-    "A minhoca não tem um coração único; ela possui cinco pares de arcos aórticos musculares que bombeiam o sangue pelo corpo anelado.",
+    "Minhocas possuem cinco pares de arcos aórticos (total de 10) que funcionam bombeando o sangue pelos vasos dorsal e ventral.",
     "Cinco pares de pequenos corações."
   ],
   [
@@ -3502,12 +3502,12 @@ const CURIOSIDADES_QUESTIONS = [
     "A 'febre da corrida do ouro' de 1849 na Califórnia fez surgir uma famosa marca de calças jeans reforçadas com rebites de cobre. Qual foi?",
     [
       "Lee",
-      "Levi Strauss (Levi's)",
+      "Levi's",
       "Wrangler",
       "Diesel"
     ],
     1,
-    "O imigrante Levi Strauss e o alfaiate Jacob Davis reforçaram calças de brim com rebites metálicos nos bolsos para mineiros que carregavam pepitas pesadas.",
+    "Levi Strauss e Jacob Davis criaram as calças de brim com rebites de cobre em 1873 para atender mineradores durante a corrida do ouro na Califórnia.",
     "A pioneira Levi's."
   ],
   [
@@ -3531,13 +3531,13 @@ const CURIOSIDADES_QUESTIONS = [
     3,
     "O plástico-bolha foi originalmente inventado em 1957 com qual propósito curioso antes de virar material de embalagem?",
     [
-      "Papel de parede texturizado e futurista",
+      "Papel de parede texturizado",
       "Isolante de botas de neve",
       "Boia salva-vidas de bolso",
-      "Brinquedo para estourar"
+      "Brinquedo de estalo sonoro"
     ],
     0,
-    "Al Fielding e Marc Chavannes tentaram criar um papel de parede tridimensional de plástico com bolhas de ar; como não vendeu, foi promovido para embalar computadores da IBM!",
+    "O plástico-bolha foi criado em 1957 para ser um papel de parede moderno; sem sucesso comercial na decoração, virou material protetor de computadores e encomendas.",
     "Criado para colar nas paredes de casa."
   ],
   [
@@ -3547,12 +3547,12 @@ const CURIOSIDADES_QUESTIONS = [
     "Qual animal é conhecido por ter impressões digitais na língua e não nos dedos?",
     [
       "Gato",
-      "Cachorro (impressão do focinho)",
+      "Cachorro",
       "Cavalo",
       "Elefante"
     ],
     1,
-    "Assim como as impressões digitais humanas, a textura e ranhuras da ponta do focinho de cada cachorro são absolutamente únicas no mundo.",
+    "A impressão do focinho dos cães possui relevos e linhas tão exclusivos que serve de biometria para identificação, como a impressão digital dos humanos.",
     "O melhor amigo de quatro patas do homem."
   ],
   [
@@ -3562,12 +3562,12 @@ const CURIOSIDADES_QUESTIONS = [
     "Qual foi o primeiro produto vendido em lata na história que exigiu a invenção do abridor de latas quase 50 anos depois?",
     [
       "Cerveja artesanal",
-      "Alimentos conservados para marinheiros e soldados britânicos",
+      "Rações militares enlatadas",
       "Tinta para parede",
       "Leite condensado"
     ],
     1,
-    "Peter Durand patenteou a lata de folha de flandres em 1810; as latas eram tão grossas que os soldados precisavam abri-las com martelo e baioneta até inventarem o abridor em 1858!",
+    "As primeiras latas de alimentos para a marinha eram feitas de ferro pesado e exigiam baionetas para abrir; abridores só surgiram quase 50 anos depois.",
     "Comida enlatada do exército."
   ],
   [
@@ -3622,12 +3622,12 @@ const CURIOSIDADES_QUESTIONS = [
     "Os astronautas das missões Apollo instalaram sismógrafos que descobriram tremores em qual astro do Sistema Solar?",
     [
       "Em Marte",
-      "Na Lua ('Moonquakes')",
+      "Na Lua",
       "No Sol",
       "Em Vênus"
     ],
     1,
-    "A Lua registra sismos lunares causados pelas forças de maré da Terra e pela contração térmica quando a superfície passa do calor escaldante para o frio extremo.",
+    "Os sismógrafos da Apollo detectaram 'moonquakes' (sismos lunares) provocados por forças de maré da Terra e pela violenta variação térmica na superfície lunar.",
     "O satélite natural da Terra."
   ],
   [
@@ -3636,13 +3636,13 @@ const CURIOSIDADES_QUESTIONS = [
     1,
     "Qual é o nome da famosa falha geológica na Califórnia que marca o atrito direto entre as placas do Pacífico e da América do Norte?",
     [
-      "Falha de Santo André (San Andreas)",
+      "Falha de San Andreas",
       "Falha da Anatólia",
       "Fossa das Marianas",
       "Rifte Africano"
     ],
     0,
-    "A Falha de San Andreas tem mais de 1.200 km de extensão e foi responsável pelo devastador terremoto e incêndio de San Francisco em 1906.",
+    "A Falha de San Andreas na Califórnia delimita o contato transcorrente entre as placas tectônicas do Pacífico e da América do Norte.",
     "Leva o nome de Santo André em inglês."
   ],
   [
@@ -3651,13 +3651,13 @@ const CURIOSIDADES_QUESTIONS = [
     2,
     "Qual é a diferença fundamental entre o 'hipocentro' (foco) e o 'epicentro' de um terremoto?",
     [
-      "Hipocentro é o ponto na superfície; epicentro é no subsolo",
-      "Hipocentro é a origem subterrânea da fratura; epicentro é o ponto da superfície exatamente acima dele",
-      "São termos sinônimos",
-      "Hipocentro só ocorre no mar"
+      "Hipocentro na superfície; epicentro no subsolo",
+      "Hipocentro subterrâneo; epicentro na superfície",
+      "Ambos os termos são sinônimos idênticos",
+      "Hipocentro marítimo; epicentro terrestre"
     ],
     1,
-    "O hipocentro é onde a rocha se quebra a quilômetros de profundidade na crosta; o epicentro é o ponto geográfico na superfície verticalmente alinhado a ele.",
+    "O hipocentro (ou foco) é a origem subterrânea da ruptura da rocha; o epicentro é a projeção geográfica desse ponto na superfície terrestre.",
     "O prefixo 'epi' indica em cima na superfície."
   ],
   [
@@ -3666,13 +3666,13 @@ const CURIOSIDADES_QUESTIONS = [
     3,
     "O colossal terremoto de magnitude 9.1 que atingiu o Japão em 2011 foi tão intenso que alterou a massa da Terra e:",
     [
-      "Encurtou o dia terrestre em cerca de 1,8 microssegundos acelerando a rotação",
-      "Fez a Lua se aproximar 10 metros",
-      "Parou o vento no planeta por um dia",
-      "Inverteu os polos magnéticos"
+      "Encurtou o dia terrestre em microssegundos",
+      "Aproximou a órbita da Lua em 10 metros",
+      "Interrompeu ventos por um dia inteiro",
+      "Inverteu os polos magnéticos da Terra"
     ],
     0,
-    "Ao redistribuir a massa do planeta para mais perto do eixo como uma patinadora fechando os braços, a Terra passou a girar milissegundos mais rápido!",
+    "O sismo de Tohoku em 2011 redistribuiu massa da crosta mais perto do eixo terrestre, aumentando ligeiramente a rotação e reduzindo o dia em 1,8 microssegundo.",
     "Acelerou imperceptivelmente a rotação da Terra."
   ],
   [
@@ -3682,12 +3682,12 @@ const CURIOSIDADES_QUESTIONS = [
     "Qual instrumento altamente sensível registra graficamente as ondas de choque causadas por abalos sísmicos?",
     [
       "Barômetro",
-      "Sismógrafo (Sismômetro)",
+      "Sismógrafo",
       "Anemômetro",
       "Higrômetro"
     ],
     1,
-    "O sismógrafo usa uma massa suspensa com inércia para traçar as ondas sísmicas Primárias (P) e Secundárias (S) no sismograma.",
+    "O sismógrafo (ou sismômetro) utiliza sensores inerciais para medir e traçar no sismograma as oscilações das ondas sísmicas.",
     "Instrumento de medição de sismos."
   ],
   [
@@ -3696,13 +3696,13 @@ const CURIOSIDADES_QUESTIONS = [
     2,
     "Por que as ondas P (Primárias) são sempre as primeiras a chegar a uma estação de monitoramento sismológico?",
     [
-      "Porque viajam no ar",
-      "Porque são ondas longitudinais compressivas e se propagam mais rápido pelas rochas sólidas",
-      "Porque são elétricas",
-      "Porque vêm do Sol"
+      "Porque viajam no ar livre",
+      "Porque são ondas compressivas mais velozes",
+      "Porque são de natureza elétrica",
+      "Porque se propagam pelo manto líquido"
     ],
     1,
-    "Ondas P comprimem e expandem o solo na direção do movimento e viajam a cerca de 5 a 8 km por segundo pela crosta terrestre.",
+    "As ondas primárias (P) são ondas longitudinais de compressão que se propagam mais rápido pelas rochas sólidas (5 a 8 km/s), chegando antes das ondas S.",
     "São ondas de compressão mais velozes."
   ],
   [
@@ -3741,13 +3741,13 @@ const CURIOSIDADES_QUESTIONS = [
     2,
     "Qual tipo de construção moderna no Japão utiliza enormes pistões hidráulicos e blocos de borracha nas fundações para resistir a terremotos?",
     [
-      "Edifícios com isolamento de base sísmica",
-      "Prédios de tijolo cru",
-      "Torres de vidro coladas",
-      "Casas suspensas por cordas"
+      "Isolamento de base sísmica",
+      "Paredes de tijolo cru",
+      "Torres com vidro colado",
+      "Estruturas suspensas por cabos"
     ],
     0,
-    "O isolamento de base desacopla o edifício do solo, permitindo que a terra trema violentamente embaixo enquanto a torre apenas oscila suavemente.",
+    "Prédios com isolamento de base usam amortecedores e mancais elastoméricos na fundação para desacoplar a oscilação do solo da superestrutura.",
     "Isolamento sísmico de base."
   ],
   [
@@ -3757,12 +3757,12 @@ const CURIOSIDADES_QUESTIONS = [
     "O que é o fenômeno devastador da 'liquefação do solo' durante fortes tremores sísmicos?",
     [
       "A rocha vira lava vulcânica",
-      "Solos arenosos saturados com água perdem a sustentação e se comportam temporariamente como um líquido viscoso",
-      "A água do rio evapora",
-      "O asfalto pega fogo"
+      "O solo perde atrito e flui como líquido",
+      "A água de superfície evapora",
+      "O asfalto entra em combustão"
     ],
     1,
-    "A vibração repetida expulsa a água dos poros da areia, fazendo com que prédios e carros afundem ou tombem intactos na lama fluida.",
+    "Na liquefação sísmica, a pressão da água nos poros de solos arenosos saturados sobe tanto com o tremor que o solo perde resistência e se comporta como lama viscosa.",
     "O chão sólido se transforma em lama fluida."
   ],
   [
@@ -3771,13 +3771,13 @@ const CURIOSIDADES_QUESTIONS = [
     1,
     "O Brasil tem terremotos? Qual é a realidade geológica do território brasileiro?",
     [
-      "Não, o Brasil nunca tremeu na história",
-      "Sim, ocorrem tremores de baixa a média intensidade por acomodação interna de placas antigas",
-      "Apenas quando caem meteoros",
-      "Apenas terremotos vulcânicos"
+      "Não, o solo nunca treme",
+      "Sim, ocorrem tremores intraplaca",
+      "Apenas por impacto de meteoro",
+      "Apenas por atividades vulcânicas"
     ],
     1,
-    "Embora fique no centro estável da Placa Sul-Americana livre de choques frontais de placas, o Brasil registra centenas de pequenos sismos intraplaca todos os anos.",
+    "O Brasil fica no interior da Placa Sul-Americana, mas ocorrem sismos de magnitude baixa a moderada por alívio de tensões geológicas acumuladas na crosta.",
     "Tremores de baixa magnitude intraplaca."
   ],
   [
@@ -3802,12 +3802,12 @@ const CURIOSIDADES_QUESTIONS = [
     "Qual escala de intensidade sísmica mede o impacto visual percebido pelas pessoas e os danos a edifícios de I a XII, em vez da energia liberada?",
     [
       "Escala Richter",
-      "Escala de Mercalli Modificada",
+      "Escala de Mercalli",
       "Escala Fujita",
       "Escala Kelvin"
     ],
     1,
-    "Criada por Giuseppe Mercalli, a escala avalia os estragos reais observados no local, variando de imperceptível (I) até destruição total (XII).",
+    "A Escala Mercalli Modificada quantifica a intensidade pelos efeitos perceptíveis e danos estruturais nas construções (graus I a XII), e não pela energia total liberada.",
     "Leva o nome do vulcanólogo italiano Mercalli."
   ],
   [
@@ -3816,13 +3816,13 @@ const CURIOSIDADES_QUESTIONS = [
     1,
     "Durante um terremoto forte dentro de uma residência, a recomendação internacional de proteção pessoal é:",
     [
-      "Correr desesperadamente para a rua",
-      "Abaixar, cobrir-se (sob mesa firme) e segurar firme ('Drop, Cover, and Hold on')",
-      "Entrar no elevador",
-      "Ficar perto das janelas de vidro"
+      "Correr para o meio da rua",
+      "Abaixar, cobrir-se e segurar firme",
+      "Entrar no elevador do prédio",
+      "Ficar encostado nas janelas"
     ],
     1,
-    "A maior parte dos ferimentos graves decorre de pedaços de forro, lustres e móveis caindo; abrigar-se sob uma mesa resistente protege a cabeça e o tronco.",
+    "O protocolo internacional 'Drop, Cover, and Hold on' orienta abaixar-se, proteger cabeça e pescoço sob um móvel firme e segurar até o abalo cessar.",
     "Abaixar, cobrir e segurar."
   ],
   [
@@ -3831,13 +3831,13 @@ const CURIOSIDADES_QUESTIONS = [
     2,
     "Qual foi o terremoto mais forte já registrado no Brasil, atingindo magnitude 6.2 em 1955?",
     [
-      "Terremoto de Montes Claros (MG)",
-      "Terremoto da Serra do Tombador (Porto dos Gaúchos - MT)",
-      "Terremoto de Sobral (CE)",
-      "Terremoto de São Paulo"
+      "Sismo de Montes Claros",
+      "Sismo de Porto dos Gaúchos",
+      "Sismo de Sobral",
+      "Sismo de São Paulo"
     ],
     1,
-    "O sismo na bacia do Xingu em Mato Grosso em janeiro de 1955 abriu fendas no solo e foi sentido a centenas de quilômetros na floresta.",
+    "Em 1955, Porto dos Gaúchos (MT) registrou um terremoto de magnitude 6.2, o maior evento sísmico documentado por instrumentos em território brasileiro.",
     "Ocorreu em Porto dos Gaúchos, no MT."
   ],
   [
@@ -3861,13 +3861,13 @@ const CURIOSIDADES_QUESTIONS = [
     2,
     "Por que a cidade do México sofre danos tão severos em terremotos mesmo quando o epicentro fica a centenas de quilômetros na costa?",
     [
-      "Porque não tem regras de construção",
-      "Porque foi construída sobre o leito argiloso e lamacento do antigo Lago de Texcoco, que amplifica as ondas sísmicas",
-      "Porque fica no nível do mar",
-      "Porque o solo é feito de ferro"
+      "Pela ausência de concreto",
+      "Pelo leito de argila do antigo lago",
+      "Pela proximidade do oceano",
+      "Pela composição ferrosa do solo"
     ],
     1,
-    "O sedimento macio do antigo lago ressoa como gelatina com as ondas de baixa frequência, multiplicando a amplitude dos tremores em prédios altos.",
+    "A Cidade do México foi erguida sobre sedimentos do antigo Lago de Texcoco, que ressoam e amplificam as ondas sísmicas de baixa frequência.",
     "Construída sobre o leito de um antigo lago."
   ],
   [
@@ -3921,13 +3921,13 @@ const CURIOSIDADES_QUESTIONS = [
     1,
     "Em alto mar profundo, qual é a aparência visual surpreendente de um tsunami para quem está navegando em um barco?",
     [
-      "Uma parede gigante de água com espuma",
-      "Uma onda quase imperceptível de apenas 30 a 60 cm de altura com cristas muito longas",
-      "Um redemoinho que afunda navios",
-      "Uma calmaria total sem água"
+      "Uma parede vertical de espuma",
+      "Onda baixa de crista muito longa",
+      "Redemoinho em espiral violenta",
+      "Uma calmaria total sem maré"
     ],
     1,
-    "Em águas profundas, a energia do tsunami viaja comprimida por toda a coluna d'água; ela só se empilha em ondas altas ao atingir águas rasas na costa!",
+    "Em mar aberto com quilômetros de profundidade, a onda de tsunami tem dezenas a centenas de quilômetros de comprimento e apenas 30 a 60 cm de altura na superfície.",
     "Onda quase imperceptível em alto mar."
   ],
   [
@@ -3936,13 +3936,13 @@ const CURIOSIDADES_QUESTIONS = [
     2,
     "Com qual velocidade impressionante um tsunami consegue se propagar pelo oceano em águas profundas de 4.000 metros?",
     [
-      "50 km/h (velocidade de um carro na cidade)",
-      "200 km/h (velocidade de um trem rápido)",
-      "Cerca de 800 a 900 km/h (velocidade de um avião comercial a jato)",
-      "À velocidade do som"
+      "50 km/h (velocidade urbana)",
+      "200 km/h (velocidade de trem)",
+      "800 km/h (velocidade de jato)",
+      "À velocidade supersônica"
     ],
     2,
-    "A velocidade de onda em águas profundas é proporcional à raiz quadrada da profundidade (v = √(g.h)), cruzando oceanos inteiros em poucas horas!",
+    "Em bacias oceânicas profundas, tsunamis se propagam a mais de 800 km/h, velocidade similar à de aviões a jato comerciais.",
     "Veloz como um avião comercial a jato."
   ],
   [
@@ -3951,13 +3951,13 @@ const CURIOSIDADES_QUESTIONS = [
     1,
     "Qual é o sinal clássico e assustador da natureza na praia que frequentemente antecede a chegada da primeira grande onda de um tsunami?",
     [
-      "A água do mar recua centenas de metros rapidamente, expondo o fundo marinho e peixes",
-      "A água fica vermelha",
-      "O mar começa a congelar",
-      "Aparecem golfinhos pulando na areia"
+      "O recuo rápido da linha da praia",
+      "A coloração vermelha da água",
+      "O congelamento repentino do mar",
+      "O surgimento de névoa escura"
     ],
     0,
-    "Se a calha da onda chegar à costa antes da crista, o mar se esvazia repentinamente. Quem corre para a praia olhar o fundo acaba apanhado pela onda gigante em minutos!",
+    "Quando a calha da onda chega à costa antes da crista, o nível do mar recua centenas de metros bruscamente, expondo recifes e peixes pouco antes do impacto da crista.",
     "O mar recua bruscamente da praia."
   ],
   [
@@ -3966,13 +3966,13 @@ const CURIOSIDADES_QUESTIONS = [
     2,
     "O que significa a palavra de origem japonesa 'Tsunami' em sua tradução literal?",
     [
-      "Onda gigante que destrói",
-      "Onda de porto (tsu = porto, nami = onda)",
-      "Fúria do oceano profundo",
-      "Vento do mar salgado"
+      "Onda destruidora",
+      "Onda de porto",
+      "Fúria do mar",
+      "Maré de vento"
     ],
     1,
-    "Os pescadores japoneses retornavam aos seus portos e encontravam vilarejos destruídos sem terem notado nada de anormal em alto mar, batizando o fenômeno de 'onda de porto'.",
+    "Em japonês, 'tsu' significa porto e 'nami' onda. Pescadores em alto mar não percebiam a passagem da onda e só viam a devastação ao retornar aos portos.",
     "Junção de porto com onda."
   ],
   [
@@ -3982,12 +3982,12 @@ const CURIOSIDADES_QUESTIONS = [
     "Qual foi o megatsunami do Oceano Índico em 26 de dezembro de 2004 que causou cerca de 230 mil mortes em 14 países?",
     [
       "Tsunami de Sendai",
-      "Tsunami do Boxing Day (provocado pelo sismo de Sumatra-Andaman)",
+      "Tsunami do Boxing Day",
       "Tsunami de Krakatoa",
       "Tsunami de Creta"
     ],
     1,
-    "Com magnitude 9.2 na falha submarina de Sumatra, foi um dos maiores desastres naturais da história moderna por falta de sistemas de boias de alerta no Índico na época.",
+    "O tsunami de 26 de dezembro de 2004 (Boxing Day) foi desencadeado por um sismo de magnitude 9.1-9.3 em Sumatra-Andaman, vitimando mais de 220 mil pessoas no Índico.",
     "Ocorreu no dia seguinte ao Natal de 2004."
   ],
   [
@@ -3996,13 +3996,13 @@ const CURIOSIDADES_QUESTIONS = [
     1,
     "Qual é a causa mais frequente da geração de grandes tsunamis no planeta?",
     [
-      "Tornados passando pelo oceano",
-      "Terremotos submarinos de falha inversa que deslocam verticalmente o fundo do mar",
-      "Marés altas de lua cheia",
-      "Tubarões nadando em cardume"
+      "Passagem de tornados",
+      "Deslocamento vertical do leito oceânico",
+      "Marés astronômicas de sizígia",
+      "Correntes marinhas profundas"
     ],
     1,
-    "O soerguimento ou rebaixamento abrupto da placa tectônica submarina empurra trilhões de litros de água verticalmente, gerando o trem de ondas.",
+    "Grandes tsunamis se originam tipicamente de falhas geológicas inversas que empurram verticalmente a coluna de água sobre a placa tectônica submarina.",
     "Deslocamento vertical do leito oceânico."
   ],
   [
@@ -4026,13 +4026,13 @@ const CURIOSIDADES_QUESTIONS = [
     3,
     "Qual rede de tecnologia instalada nos oceanos utiliza sensores de pressão no leito marinho comunicando com boias de superfície para alertar tsunamis?",
     [
-      "Sistema DART (Deep-ocean Assessment and Reporting of Tsunamis)",
-      "Sistema Doppler",
-      "Sistema GPS comum",
-      "Rede Starlink marinha"
+      "Sistema DART de sensores",
+      "Radar meteorológico Doppler",
+      "Satélites de posicionamento GPS",
+      "Rede de cabos telegráficos"
     ],
     0,
-    "O sistema DART mede variações de milímetros na coluna d'água a 6.000 metros de profundidade e envia sinais via satélite aos centros de alerta mundiais em minutos.",
+    "O sistema DART (Deep-ocean Assessment and Reporting of Tsunamis) usa medidores de pressão ancorados no leito marinho comunicando dados a boias de superfície.",
     "Conhecido pela sigla DART."
   ],
   [
@@ -4041,13 +4041,13 @@ const CURIOSIDADES_QUESTIONS = [
     1,
     "Um tsunami é formado por uma única onda gigante ou por uma série sucessiva de ondas?",
     [
-      "Uma única onda que atinge a costa e acaba",
-      "Uma série (trem de ondas) com intervalos que podem durar de 10 minutos a mais de uma hora",
+      "Uma única onda isolada",
+      "Uma série de ondas sucessivas",
       "Duas ondas e nada mais",
-      "Infinitas ondas pequenas idênticas à ressaca comum"
+      "Inúmeras ondas de ressaca"
     ],
     1,
-    "Um tsunami é um trem de ondas; frequentemente a segunda, terceira ou quarta onda é muito maior e mais devastadora do que a primeira!",
+    "Tsunamis ocorrem em 'trens de ondas' espaçados por minutos ou até horas; as ondas seguintes costumam ser mais volumosas e perigosas que a primeira.",
     "Uma sequência com várias ondas espaçadas."
   ],
   [
@@ -4056,13 +4056,13 @@ const CURIOSIDADES_QUESTIONS = [
     2,
     "O que aconteceu com a usina nuclear de Fukushima Daiichi no Japão em março de 2011 durante o grande tsunami de Tohoku?",
     [
-      "Ela foi atingida por lava vulcânica",
-      "A onda de 14 metros ultrapassou o dique de proteção de 5,7 metros e inundou os geradores a diesel de emergência",
-      "Caiu um avião sobre ela",
-      "O terremoto quebrou os reatores mas a água não chegou"
+      "Foi atingida por magma submarino",
+      "A água inundou os geradores a diesel",
+      "Uma aeronave caiu sobre os reatores",
+      "Os diques suportaram toda a inundação"
     ],
     1,
-    "Sem energia para bombear água de resfriamento nos reatores após o alagamento dos geradores, ocorreu derretimento do combustível nuclear.",
+    "O tsunami de Tohoku ultrapassou o muro de contenção em Fukushima e alagou os geradores a diesel no subsolo, cortando a energia de refrigeração dos reatores.",
     "A onda ultrapassou a barreira e inundou os geradores."
   ],
   [
@@ -4072,12 +4072,12 @@ const CURIOSIDADES_QUESTIONS = [
     "Qual ilha vulcânica nas Canárias (Espanha) foi objeto de estudos científicos sobre a hipótese de um megatsunami no Atlântico por deslizamento de encosta?",
     [
       "Tenerife",
-      "La Palma (Cumbre Vieja)",
+      "La Palma",
       "Gran Canária",
       "Lanzarote"
     ],
     1,
-    "Modelos geológicos simularam o impacto de um colapso maciço da encosta do Cumbre Vieja no mar, embora estudos recentes mostrem que o risco de ruptura em bloco único é muito baixo.",
+    "A hipótese de colapso da encosta do vulcão Cumbre Vieja em La Palma foi amplamente estudada em modelos de geração de megatsunamis transatlânticos.",
     "A ilha de La Palma."
   ],
   [
@@ -4086,13 +4086,13 @@ const CURIOSIDADES_QUESTIONS = [
     1,
     "Ao receber um alerta oficial de tsunami ou notar o recuo repentino do mar, para onde você deve se deslocar IMEDIATAMENTE?",
     [
-      "Para a beira da praia ver o que aconteceu",
-      "Para terrenos elevados ou andares superiores de prédios de concreto armado bem estruturados",
-      "Para dentro do carro estacionado na orla",
-      "Para o porão da casa mais próxima"
+      "Para a linha da praia",
+      "Para terrenos altos e elevados",
+      "Para o interior do carro na orla",
+      "Para o porão da construção"
     ],
     1,
-    "Cada metro de altitude conta; deve-se subir morros ou edifícios altos de concreto imediatamente, mantendo-se longe de rios e canais.",
+    "Diante de alerta ou recuo anômalo do mar, deve-se buscar altitude imediata a pé, em morros ou estruturas reforçadas de concreto, longe de canais e rios.",
     "Buscar terrenos altos e longe da costa."
   ],
   [
@@ -4101,13 +4101,13 @@ const CURIOSIDADES_QUESTIONS = [
     2,
     "Por que os rios que deságuam no mar se tornam vias perigosas de inundação durante a passagem de um tsunami?",
     [
-      "Porque a água do rio para de correr",
-      "Porque a onda do mar penetra pelo canal do rio em alta velocidade inundando bairros a quilômetros do litoral",
-      "Porque o rio seca para sempre",
-      "Porque atrai peixes elétricos"
+      "Porque o rio seca de repente",
+      "Porque a onda sobe o leito do rio",
+      "Porque o fluxo de água estagna",
+      "Porque a água perde o oxigênio"
     ],
     1,
-    "A energia da onda oceânica sobe o leito do rio como uma pororoca violenta, arrastando pontes e casas no interior continental.",
+    "A energia do tsunami avança pelo canal fluvial como uma pororoca veloz, inundando várzeas e comunidades ribeirinhas a quilômetros do litoral aberto.",
     "O tsunami sobe o canal do rio continente adentro."
   ],
   [
@@ -4131,13 +4131,13 @@ const CURIOSIDADES_QUESTIONS = [
     1,
     "Tsunamis podem ser causados por deslizamentos submarinos massivos de terra ou gelo glacial no mar?",
     [
-      "Não, apenas por terremotos",
-      "Sim, grandes massas de rocha, terra ou geleiras despencando na água deslocam volumes colossais",
-      "Apenas em lagos de água doce",
-      "Somente se houver tempestade de chuva junto"
+      "Apenas por abalos sísmicos",
+      "Sim, por grandes massas em queda livre",
+      "Somente em águas lacustres",
+      "Apenas quando associados a ciclones"
     ],
     1,
-    "Grandes desabamentos submarinos de sedimentos ou colapso de geleiras em fiordes profundos são causas comprovadas de tsunamis locais.",
+    "Grandes deslizamentos submarinos ou colapsos de paredões rochosos e geleiras deslocam subitamente grandes volumes de água, gerando tsunamis de proporções colossais.",
     "Deslizamentos de rochas e geleiras geram tsunamis."
   ],
   [
@@ -4146,13 +4146,13 @@ const CURIOSIDADES_QUESTIONS = [
     2,
     "Por que a destruição provocada pela água de um tsunami na volta (refluxo para o mar) é muitas vezes pior que na chegada?",
     [
-      "Porque a água fica quente",
-      "Porque a correnteza de retorno carrega toneladas de escombros, carros e estruturas agindo como aríete triturador",
-      "Porque a gravidade aumenta",
-      "Porque o mar fica salgado demais"
+      "Porque a temperatura da água sobe",
+      "Porque a correnteza arrasta escombros",
+      "Porque a gravidade local varia",
+      "Porque a salinidade aumenta"
     ],
     1,
-    "Ao escoar de volta, a água arrasta postes, vigas, veículos e concreto que colidem violentamente contra tudo o que permaneceu de pé.",
+    "Ao recuar de volta ao oceano, o refluxo da água transporta milhares de toneladas de concreto, postes e veículos, que atuam como aríete contra construções restantes.",
     "O refluxo carrega destroços que trituram tudo."
   ],
   [
@@ -4162,12 +4162,12 @@ const CURIOSIDADES_QUESTIONS = [
     "Em que país a garota britânica de 10 anos Tilly Smith salvou cerca de 100 turistas em 2004 ao reconhecer o recuo do mar aprendido na aula de geografia?",
     [
       "Austrália",
-      "Tailândia (Praia de Maikhao, Phuket)",
+      "Tailândia",
       "Indonésia",
       "Índia"
     ],
     1,
-    "Tilly lembrou da aula de seu professor sobre tsunamis e avisou os pais e funcionários do hotel para evacuarem a praia antes da primeira onda chegar.",
+    "Em 2004, a estudante inglesa Tilly Smith identificou o mar borbulhante e recuando na praia de Maikhao, na Tailândia, evacuando centenas de banhistas antes da onda.",
     "Na praia de Phuket, na Tailândia."
   ],
   [
@@ -4176,13 +4176,13 @@ const CURIOSIDADES_QUESTIONS = [
     3,
     "O litoral do Brasil já registrou algum registro histórico de tsunami de pequeno porte?",
     [
-      "Nunca na história geológica",
-      "Sim, ondas de até 1,8 metro atingiram o Nordeste após o grande terremoto de Lisboa de 1755",
-      "Sim, toda semana há um",
-      "Apenas no Rio Amazonas"
+      "Nunca ocorreu no litoral",
+      "Sim, com o sismo de Lisboa de 1755",
+      "Ocorre semanalmente na costa",
+      "Apenas na foz do Rio Amazonas"
     ],
     1,
-    "Registros coloniais confirmam que ondas de maré anormais do terremoto de Lisboa cruzaram o Atlântico e invadiram praias na Bahia, Paraíba e Pernambuco em 1755.",
+    "O grande terremoto de Lisboa em 1755 gerou ondas que atravessaram o Oceano Atlântico e provocaram inundações costeiras no Nordeste brasileiro.",
     "Ondas do sismo de Lisboa de 1755."
   ],
   [
@@ -4207,12 +4207,12 @@ const CURIOSIDADES_QUESTIONS = [
     "Em quais dois planetas gigantes gasosos do Sistema Solar as pressões e temperaturas extremas fazem chover literalmente DIAMANTES na atmosfera?",
     [
       "Marte e Mercúrio",
-      "Júpiter e Netuno (bem como Saturno e Urano)",
+      "Júpiter e Netuno",
       "Terra e Vênus",
       "Apenas na Lua"
     ],
     1,
-    "O metano atmosférico é quebrado pela pressão em carbono puro, que cristaliza em diamantes sólidos que precipitam em direção ao núcleo!",
+    "Pressões e temperaturas colossais no manto de planetas como Netuno, Urano, Júpiter e Saturno comprimem o carbono atmosférico em verdadeiras chuvas de diamantes sólidos.",
     "Nos gigantes gasosos e de gelo exteriores."
   ],
   [
@@ -4236,13 +4236,13 @@ const CURIOSIDADES_QUESTIONS = [
     2,
     "Por que um dia inteiro em Vênus (uma rotação) é mais longo do que um ano inteiro em Vênus (uma translação ao redor do Sol)?",
     [
-      "Porque o Sol para de brilhar",
-      "Porque Vênus leva 243 dias terrestres para girar sobre si mesmo e apenas 225 dias para dar a volta ao Sol",
-      "Por causa de seus anéis",
-      "Porque Vênus não gira"
+      "Porque o Sol não brilha em Vênus",
+      "Pela rotação lenta de 243 dias terrestres",
+      "Pela presença de anéis densos",
+      "Porque o planeta é estático"
     ],
     1,
-    "A rotação extremamente lenta e retrógrada de Vênus faz com que o planeta complete uma órbita solar antes de terminar uma única volta em seu eixo!",
+    "Vênus tem uma rotação retrógrada tão lenta que leva 243 dias terrestres para girar sobre si mesmo, enquanto completa sua translação ao redor do Sol em 225 dias.",
     "Leva 243 dias para girar e 225 para orbitar."
   ],
   [
@@ -4266,13 +4266,13 @@ const CURIOSIDADES_QUESTIONS = [
     1,
     "A luz do Sol leva aproximadamente quanto tempo para viajar pelo espaço e chegar até a superfície da Terra?",
     [
-      "1 segundo",
-      "Cerca de 8 minutos e 20 segundos",
-      "1 hora inteira",
-      "Instantaneamente"
+      "Cerca de 1 segundo",
+      "Cerca de 8 minutos",
+      "Cerca de 1 hora",
+      "Chega instantaneamente"
     ],
     1,
-    "Viajando a 300.000 km/s por uma distância de 150 milhões de km, os fótons solares levam cerca de 500 segundos (8m20s) na jornada.",
+    "A luz viaja no vácuo a cerca de 300.000 km/s; para percorrer os 150 milhões de km até a Terra, leva aproximadamente 8 minutos e 20 segundos.",
     "Cerca de 8 minutos."
   ],
   [
@@ -4296,13 +4296,13 @@ const CURIOSIDADES_QUESTIONS = [
     3,
     "O que é o 'Horizonte de Eventos' de um buraco negro no espaço sideral?",
     [
-      "O brilho das estrelas",
-      "O ponto de não retorno além do qual nada, nem mesmo a luz, consegue escapar da atração gravitacional",
-      "A superfície sólida de ferro",
-      "O anel de gelo ao redor"
+      "A coroa brilhante de plasma",
+      "A fronteira de onde a luz não escapa",
+      "O núcleo de ferro maciço",
+      "O disco exterior de asteroides"
     ],
     1,
-    "Uma vez cruzado o horizonte de eventos, a velocidade de escape necessária supera a velocidade da luz, tornando a fuga fisicamente impossível.",
+    "O horizonte de eventos delimita a região ao redor de um buraco negro onde a velocidade de escape supera a velocidade da luz, constituindo um limite sem retorno.",
     "O ponto de não retorno."
   ],
   [
@@ -4341,13 +4341,13 @@ const CURIOSIDADES_QUESTIONS = [
     3,
     "O que são as estrelas de nêutrons (pulsares) e quão densas elas são na física estelar?",
     [
-      "Nuvens de gás frio",
-      "Restos ultra-densos de supernovas onde uma colher de chá de matéria pesaria cerca de bilhões de toneladas na Terra",
-      "Estrelas feitas de diamante",
-      "Planetas de chumbo"
+      "Nuvens frias de hidrogênio",
+      "Remanescentes estelares ultra-densos",
+      "Planetas de diamante puro",
+      "Camadas de chumbo gasoso"
     ],
     1,
-    "Prótons e elétrons são esmagados juntos formando nêutrons puros; uma esfera de apenas 20 km de diâmetro abriga mais massa que o nosso Sol inteiro!",
+    "Em estrelas de nêutrons resultantes de supernovas, a matéria é tão compactada que uma colher de chá de sua substância pesaria bilhões de toneladas na Terra.",
     "Uma colher de chá pesa bilhões de toneladas."
   ],
   [
@@ -4371,13 +4371,13 @@ const CURIOSIDADES_QUESTIONS = [
     2,
     "Qual é o destino futuro inevitável da nossa galáxia Via Láctea daqui a cerca de 4 a 5 bilhões de anos?",
     [
-      "Ela vai se dissolver no vazio",
-      "Irá colidir e se fundir com a galáxia vizinha de Andrômeda formando uma galáxia gigante",
-      "Será engolida pelo Sol",
-      "Vai se transformar em uma estrela"
+      "Dissolução completa no vácuo",
+      "Colisão e fusão com Andrômeda",
+      "Absorção pelo campo do Sol",
+      "Conversão em estrela única"
     ],
     1,
-    "As duas galáxias espirais se aproximam a 110 km/s e vão se fundir pacificamente em uma nova galáxia elíptica (apelidada de 'Lactômeda').",
+    "A Via Láctea e a galáxia de Andrômeda estão em rota de colisão a mais de 110 km/s e devem se fundir em uma grande galáxia elíptica em 4 a 5 bilhões de anos.",
     "Colisão e fusão com a galáxia de Andrômeda."
   ],
   [
@@ -4401,13 +4401,13 @@ const CURIOSIDADES_QUESTIONS = [
     2,
     "A lua Encélado de Saturno ejeta jatos de vapor de água e gelo no espaço através de gêiseres porque abriga:",
     [
-      "Vulcões de enxofre",
-      "Um imenso oceano global de água líquida aquecido sob sua crosta de gelo",
-      "Campos de lava",
-      "Reatores atômicos"
+      "Gêiseres de enxofre vulcânico",
+      "Um oceano líquido sob a crosta de gelo",
+      "Depósitos superficiais de magma",
+      "Reações radioativas artificiais"
     ],
     1,
-    "A sonda Cassini descobriu compostos orgânicos e fontes hidrotermais no fundo do oceano de Encélado, tornando-a forte candidata à vida microbiana extraterrestre.",
+    "A sonda Cassini revelou que Encélado possui um oceano global de água líquida salgada sob sua casca de gelo, aquecido por forças de maré e fontes hidrotermais.",
     "Um oceano líquido sob a camada de gelo."
   ],
   [
@@ -4431,13 +4431,13 @@ const CURIOSIDADES_QUESTIONS = [
     2,
     "O que causa a famosa 'cauda' brilhante que se desenvolve atrás de um cometa quando ele se aproxima do Sol?",
     [
-      "Fogo da combustão",
-      "A sublimação dos gelos e poeira do cometa soprada pela radiação e vento solar",
-      "Rastro de gasolina espacial",
-      "Atrito com o ar do vácuo"
+      "Fogo proveniente de combustão",
+      "Sublimação de gelos pelo vento solar",
+      "Vazamento de combustível fóssil",
+      "Fricção com partículas no vácuo"
     ],
     1,
-    "O calor solar evapora os gelos do cometa; os ventos solares empurram esses gases e poeira sempre no sentido contrário ao Sol.",
+    "À medida que o cometa se aproxima do Sol, a radiação sublima os gelos de seu núcleo; a pressão de radiação e o vento solar empurram o gás e poeira formando a cauda.",
     "Sublimação do gelo soprada pelo vento solar."
   ],
   [
@@ -4447,12 +4447,12 @@ const CURIOSIDADES_QUESTIONS = [
     "Qual telescópio espacial lançado em 2021 opera no infravermelho a 1,5 milhão de km da Terra para observar as primeiras galáxias do Universo?",
     [
       "Telescópio Hubble",
-      "Telescópio Espacial James Webb (JWST)",
+      "Telescópio James Webb",
       "Telescópio Kepler",
       "Observatório Chandra"
     ],
     1,
-    "Com seu espelho hexagonal dourado de 6,5 metros e escudo térmico do tamanho de uma quadra de tênis, o James Webb revelou galáxias dos primórdios cósmicos.",
+    "O James Webb (JWST) observa no infravermelho no ponto de Lagrange L2 para captar a luz avermelhada desviada das primeiras estrelas e galáxias do cosmos.",
     "O telescópio James Webb."
   ],
   [
@@ -4491,13 +4491,13 @@ const CURIOSIDADES_QUESTIONS = [
     1,
     "Qual é a cor predominante do planeta Marte visto no céu noturno a olho nu, que lhe rendeu o apelido de 'Planeta Vermelho'?",
     [
-      "Azul",
-      "Vermelha / Alaranjada (devido ao óxido de ferro na poeira)",
-      "Verde esmeralda",
+      "Azul celeste",
+      "Avermelhada por óxidos de ferro",
+      "Verde oliva",
       "Branca prateada"
     ],
     1,
-    "O solo marciano é rico em minerais de ferro que oxidaram ('enferrujaram') ao longo de bilhões de anos, espalhando uma poeira ferruginosa avermelhada.",
+    "O solo marciano contém grande concentração de minerais de óxido de ferro ('ferrugem'), dando à superfície sua marcante tonalidade avermelhada.",
     "Coloração avermelhada de ferrugem."
   ],
   [
@@ -4506,13 +4506,13 @@ const CURIOSIDADES_QUESTIONS = [
     2,
     "Qual é o famoso 'Paradoxo do Aniversário' na teoria das probabilidades?",
     [
-      "Em um grupo de apenas 23 pessoas, a chance de duas fazerem aniversário no mesmo dia já supera 50%",
-      "Ninguém nasce no mesmo dia",
-      "São necessárias 365 pessoas para haver 50% de chance",
-      "Aniversários só ocorrem em anos bissextos"
+      "Chance de 50% em apenas 23 pessoas",
+      "Ninguém faz aniversário no mesmo dia",
+      "São precisas 365 pessoas para 50%",
+      "Aniversários só em anos bissextos"
     ],
     0,
-    "Como comparamos todos os pares possíveis entre si (253 combinações com 23 pessoas), a probabilidade acumulada de coincidência ultrapassa 50,7%!",
+    "Pelo Paradoxo do Aniversário, em uma sala com apenas 23 pessoas, existem 253 pares de comparação, fazendo a chance de ao menos duas pessoas compartilharem a mesma data superar 50,7%.",
     "Apenas 23 pessoas reunidas em uma sala."
   ],
   [
@@ -4522,12 +4522,12 @@ const CURIOSIDADES_QUESTIONS = [
     "Qual civilização antiga inventou o conceito e o símbolo do número ZERO como algarismo com valor posicional?",
     [
       "Civilização Romana",
-      "Civilização Indiana (Índia Antiga)",
-      "Vikings",
-      "Gregos Antigos"
+      "Civilização Indiana",
+      "Civilização Viking",
+      "Grécia Antiga"
     ],
     1,
-    "Matemáticos indianos como Brahmagupta definiram as regras aritméticas do zero ('shunya') no século VII, revolucionando a matemática mundial.",
+    "Matemáticos da Índia Antiga (como Brahmagupta) formalizaram o zero ('shunya') como número e algarismo posicional no século VII.",
     "Na Índia Antiga."
   ],
   [
@@ -4537,12 +4537,12 @@ const CURIOSIDADES_QUESTIONS = [
     "A sequência de Fibonacci (1, 1, 2, 3, 5, 8, 13, 21...) aparece frequentemente na natureza em qual destes exemplos?",
     [
       "Na contagem de patas de insetos",
-      "Na disposição espiral das sementes de girassol e escamas de pinhas",
-      "Na velocidade do som",
-      "Na cor das pedras"
+      "Na espiral de sementes e pinhas",
+      "Na velocidade das ondas sonoras",
+      "Na composição mineral das rochas"
     ],
     1,
-    "A proporção áurea de crescimento ótimo faz com que folhas, conchas de náutilo e pétalas maximizem a exposição ao sol e espaço seguindo Fibonacci.",
+    "O arranjo das sementes no miolo do girassol e as escamas de pinhas seguem espirais logarítmicas baseadas na sequência de Fibonacci para otimizar o espaço e a luz solar.",
     "Espirais em girassóis e pinhas."
   ],
   [
@@ -4582,12 +4582,12 @@ const CURIOSIDADES_QUESTIONS = [
     "O que afirma o célebre Teorema de Pitágoras para qualquer triângulo retângulo?",
     [
       "A soma dos ângulos é 100°",
-      "O quadrado da hipotenusa é igual à soma dos quadrados dos catetos (a² = b² + c²)",
-      "A área é base mais altura",
-      "Todos os lados têm a mesma medida"
+      "O quadrado da hipotenusa é a² = b² + c²",
+      "A área é o dobro da altura",
+      "Todos os três lados são iguais"
     ],
     1,
-    "Em um triângulo retângulo, a área do quadrado construído sobre o maior lado (hipotenusa) equivale à soma das áreas dos quadrados dos dois outros lados.",
+    "O Teorema de Pitágoras estabelece que, em qualquer triângulo retângulo, a área do quadrado da hipotenusa é igual à soma das áreas dos quadrados dos dois catetos.",
     "a² = b² + c²."
   ],
   [
@@ -4626,13 +4626,13 @@ const CURIOSIDADES_QUESTIONS = [
     2,
     "O 'Problema de Monty Hall' em um programa de auditório ensina que, após o apresentador abrir uma porta vazia com um bode, o competidor deve:",
     [
-      "Manter a porta original",
-      "Mudar de porta para dobrar suas chances de vitória para 2/3",
-      "Tanto faz, a chance é 50%",
-      "Pedir ajuda da plateia"
+      "Manter a porta original escolhida",
+      "Trocar de porta para ter 2/3 de chance",
+      "Tanto faz, a chance final é 50%",
+      "Pedir a ajuda de outra pessoa"
     ],
     1,
-    "Como havia 2/3 de chance de o prêmio estar em uma das outras duas portas, quando Monty revela o bode, a porta restante herda essa chance de 66,7%!",
+    "No problema de Monty Hall, mudar de porta aumenta a probabilidade de vitória de 1/3 para 2/3, pois a revelação do apresentador concentra a chance na porta restante.",
     "Mudar de porta dobra a probabilidade."
   ],
   [
@@ -4686,13 +4686,13 @@ const CURIOSIDADES_QUESTIONS = [
     3,
     "O que é a 'Fita de Möbius' na topologia matemática?",
     [
-      "Uma fita métrica elástica",
-      "Uma superfície bidimensional com apenas UM lado e UMA única borda contínua",
-      "Um nó que não pode ser desatado",
-      "Um círculo infinito"
+      "Fita métrica com elasticidade",
+      "Superfície de um lado e uma borda",
+      "Nó contínuo que nunca se desfaz",
+      "Círculo com espessura variável"
     ],
     1,
-    "Se você colar as extremidades de uma tira de papel após dar meia-volta de 180°, formará um objeto contínuo: andando com uma caneta por ela, pintará os dois lados sem tirar a ponta do papel!",
+    "A Fita de Möbius possui apenas uma face contínua e uma única linha de borda, sendo um objeto clássico de estudo na topologia.",
     "Superfície que só tem uma face."
   ],
   [
@@ -4703,11 +4703,11 @@ const CURIOSIDADES_QUESTIONS = [
     [
       "49",
       "70",
-      "5.040 (7 × 6 × 5 × 4 × 3 × 2 × 1)",
+      "5.040",
       "35"
     ],
     2,
-    "O fatorial multiplica todos os números inteiros positivos até o número dado: 7 × 6 × 5 × 4 × 3 × 2 × 1 = 5.040.",
+    "O cálculo de 7! (7 fatorial) é 7 × 6 × 5 × 4 × 3 × 2 × 1 = 5.040.",
     "Multiplicação regressiva de 7 até 1."
   ],
   [
@@ -4716,13 +4716,13 @@ const CURIOSIDADES_QUESTIONS = [
     2,
     "A Proporção Áurea (ou Número de Ouro, phi ≈ 1,618) era considerada pelos renascentistas a medida máxima da harmonia visual por estar presente:",
     [
-      "No Partenon, na Mona Lisa e nas espirais da natureza",
+      "No Partenon e na Mona Lisa",
       "Apenas em relógios de ouro",
       "Nos triângulos de trânsito",
-      "Nos mapas das cidades"
+      "Nos mapas viários urbanos"
     ],
     0,
-    "Artistas como Leonardo da Vinci e arquitetos gregos usavam a proporção áurea por considerá-la a mais esteticamente agradável ao olho humano.",
+    "A Proporção Áurea (phi ≈ 1,618) foi amplamente utilizada por arquitetos gregos e mestres renascentistas para compor obras harmônicas e equilibradas.",
     "Presente em obras de arte e monumentos clássicos."
   ],
   [
@@ -4732,12 +4732,12 @@ const CURIOSIDADES_QUESTIONS = [
     "Quantas cores diferentes são necessárias, no máximo, para colorir qualquer mapa plano de modo que dois países vizinhos nunca tenham a mesma cor?",
     [
       "3 cores",
-      "4 cores (Teorema das Quatro Cores)",
+      "4 cores",
       "5 cores",
       "7 cores"
     ],
     1,
-    "Provado com auxílio de computadores em 1976 por Appel e Haken, o Teorema das Quatro Cores resolveu um dos enigmas cartográficos mais antigos.",
+    "O Teorema das Quatro Cores demonstra que quatro cores são suficientes para colorir qualquer mapa plano de modo que regiões vizinhas nunca compartilhem a mesma cor.",
     "Apenas quatro cores."
   ],
   [
@@ -4821,13 +4821,13 @@ const CURIOSIDADES_QUESTIONS = [
     1,
     "Quantas vezes aproximadamente o coração humano bate em média ao longo de um único dia em repouso?",
     [
-      "1.000 vezes",
-      "10.000 vezes",
+      "Cerca de 1.000 batimentos",
+      "Cerca de 10.000 batimentos",
       "Cerca de 100.000 batimentos",
-      "1 milhão de vezes"
+      "Cerca de 1 milhão de batimentos"
     ],
     2,
-    "Batendo entre 60 e 80 vezes por minuto, o coração bombeia cerca de 7.500 litros de sangue por dia através de 100 mil km de vasos sanguíneos!",
+    "Com frequência média de 70 batimentos por minuto em repouso, o coração humano pulsa aproximadamente 100.000 vezes a cada 24 horas.",
     "Cerca de 100 mil vezes por dia."
   ],
   [
@@ -4851,13 +4851,13 @@ const CURIOSIDADES_QUESTIONS = [
     3,
     "Por que o estômago humano não se digere a si mesmo com o potente ácido clorídrico que secreta?",
     [
-      "Porque o ácido é fraco",
-      "Porque a parede interna secreta uma densa camada de muco protetor alcalino de bicarbonato que se renova a cada poucos dias",
-      "Porque o estômago é feito de osso",
-      "Porque não há enzimas ali"
+      "Pela fraqueza do ácido estomacal",
+      "Pelo muco protetor que reveste a parede",
+      "Pela rigidez óssea do estômago",
+      "Pela ausência de enzimas gástricas"
     ],
     1,
-    "O muco rico em bicarbonato neutraliza o ácido junto à mucosa estomacal; as células da parede são completamente substituídas a cada 3 a 5 dias.",
+    "A mucosa do estômago é protegida por uma espessa camada de muco rica em bicarbonato que neutraliza o ácido clorídrico junto às paredes e se renova continuamente.",
     "Camada de muco protetor que se renova rapidamente."
   ],
   [
@@ -4881,13 +4881,13 @@ const CURIOSIDADES_QUESTIONS = [
     2,
     "Cientistas japoneses descobriram que o corpo humano emite bioluminescência visível no escuro. Por que não conseguimos vê-la a olho nu?",
     [
-      "Porque é luz ultravioleta",
-      "Porque a intensidade da luz é 1.000 vezes mais fraca do que o menor nível que o olho humano consegue enxergar",
-      "Porque ela só brilha dentro dos ossos",
-      "Porque brilha apenas durante o sono"
+      "Por se tratar de radiação ultravioleta",
+      "Pela luz ser 1.000 vezes fraca demais",
+      "Por brilhar apenas no interior dos ossos",
+      "Por emitir luz somente durante o sono"
     ],
     1,
-    "Câmeras ultra-sensíveis flagraram fótons emitidos por reações metabólicas oxidativas da pele, com pico de brilho no final da tarde!",
+    "Reações metabólicas do corpo humano emitem biofótons visíveis, porém com intensidade mil vezes menor do que o limiar perceptível pelo olho humano.",
     "Luz 1.000 vezes mais fraca que nossa visão."
   ],
   [
@@ -4897,12 +4897,12 @@ const CURIOSIDADES_QUESTIONS = [
     "Quantos neurônios aproximadamente existem no cérebro humano, interconectados por trilhões de sinapses?",
     [
       "1 milhão",
-      "86 bilhões de neurônios",
+      "86 bilhões",
       "500 bilhões",
       "10 trilhões"
     ],
     1,
-    "Pesquisa liderada pela neurocientista brasileira Suzana Herculano-Houzel demonstrou que o cérebro humano tem cerca de 86 bilhões de neurônios.",
+    "Pesquisas da neurocientista brasileira Suzana Herculano-Houzel quantificaram que o cérebro humano abriga em média cerca de 86 bilhões de neurônios.",
     "Cerca de 86 bilhões."
   ],
   [
@@ -4941,13 +4941,13 @@ const CURIOSIDADES_QUESTIONS = [
     2,
     "Por que os músculos esqueléticos tremem involuntariamente quando sentimos frio intenso?",
     [
-      "Por espasmo nervoso de medo",
-      "Para queimar glicose e gerar calor corporal através das contrações rápidas",
-      "Porque os nervos congelam",
-      "Para bombear mais oxigênio nos pulmões"
+      "Por espasmo causado pelo medo",
+      "Para queimar glicose e gerar calor",
+      "Porque os nervos periféricos travam",
+      "Para aumentar o oxigênio pulmonar"
     ],
     1,
-    "Os arrepios e tremores musculares aumentam a produção de calor metabólico em até 500%, ajudando a manter os órgãos vitais a 37°C.",
+    "As contrações involuntárias e rápidas do tremor muscular produzem calor metabólico por fricção e consumo de energia, auxiliando na manutenção da temperatura corporal.",
     "Mecanismo para aquecer o corpo."
   ],
   [
@@ -4956,13 +4956,13 @@ const CURIOSIDADES_QUESTIONS = [
     3,
     "Qual é o músculo mais forte do corpo humano em relação à força de pressão exercida por centímetro quadrado?",
     [
-      "O bíceps",
-      "O masseter (músculo da mandíbula)",
+      "O bíceps braquial",
+      "O músculo masseter",
       "O glúteo máximo",
-      "A panturrilha"
+      "O sóleo da perna"
     ],
     1,
-    "O masseter consegue exercer uma força de mordida de mais de 70 a 90 kg de pressão nos dentes molares com facilidade.",
+    "Em força proporcional à área de secção transversal, o masseter (músculo que eleva a mandíbula) é capaz de aplicar dezenas de quilos de força mastigatória.",
     "Músculo que fecha a mandíbula."
   ],
   [
@@ -5002,12 +5002,12 @@ const CURIOSIDADES_QUESTIONS = [
     "Qual órgão abriga o 'segundo cérebro' do corpo humano, contendo mais de 500 milhões de neurônios e produzindo cerca de 90% da serotonina corporal?",
     [
       "O estômago",
-      "O intestino (Sistema Nervoso Entérico)",
+      "O intestino",
       "O coração",
-      "A medula espinhal"
+      "A medula"
     ],
     1,
-    "O intestino possui uma rede neural tão rica e independente que consegue coordenar reflexos e influenciar diretamente o humor e a ansiedade.",
+    "O sistema nervoso entérico do intestino reúne centenas de milhões de neurônios e secreta a maior parcela da serotonina circulante no organismo.",
     "O intestino humano."
   ],
   [
@@ -5031,13 +5031,13 @@ const CURIOSIDADES_QUESTIONS = [
     2,
     "Quantas vértebras compõem normalmente a coluna vertebral de um ser humano adulto?",
     [
-      "12",
-      "24 (mais o sacro e cóccix fundidos, totalizando 33 no desenvolvimento)",
-      "50",
-      "10"
+      "12 vértebras",
+      "24 vértebras",
+      "50 vértebras",
+      "10 vértebras"
     ],
     1,
-    "A coluna tem 7 vértebras cervicais, 12 torácicas, 5 lombares, além do sacro e cóccix articulados.",
+    "A coluna vertebral humana conta com 24 vértebras pré-sacrais articuladas (7 cervicais, 12 torácicas e 5 lombares), além dos segmentos fundidos do sacro e cóccix.",
     "São 24 vértebras articuladas."
   ],
   [
@@ -5076,13 +5076,13 @@ const CURIOSIDADES_QUESTIONS = [
     2,
     "Por que os dedos das mãos e pés enrugam quando passamos muito tempo de molho na água?",
     [
-      "Pela pele inchar de água",
-      "Por uma resposta involuntária do sistema nervoso que melhora a aderência e a pegada em objetos molhados",
-      "Porque a pele perde gordura",
-      "Porque o sabonete derrete o tecido"
+      "Pelo inchaço da pele na água",
+      "Por resposta neural para dar aderência",
+      "Pela perda instantânea de gordura",
+      "Pela ação química do sabonete"
     ],
     1,
-    "Cientistas provaram que nervos cortados impedem o enrugamento: trata-se de uma adaptação evolutiva que funciona como ranhuras de pneus na chuva!",
+    "O enrugamento aquático é mediado pelo sistema nervoso autônomo através de vasoconstrição, criando ranhuras funcionais para melhorar a pegada em superfícies molhadas.",
     "Resposta neural que melhora a pegada molhada."
   ],
   [
@@ -5121,13 +5121,13 @@ const CURIOSIDADES_QUESTIONS = [
     3,
     "As árvores de uma floresta comunicam-se, trocam nutrientes e alertam sobre pragas através de uma rede subterrânea apelidada de 'Wood Wide Web'. Quem forma essa rede?",
     [
-      "Fios de cobre naturais",
-      "Redes de fungos micorrízicos associados às raízes",
-      "Bactérias elétricas",
-      "Água subterrânea corrente"
+      "Fios de cobre naturais no solo",
+      "Redes de fungos micorrízicos",
+      "Colônias de bactérias elétricas",
+      "Lençóis de água subterrânea"
     ],
     1,
-    "Hifas de fungos microscópicos conectam as raízes de árvores vizinhas, compartilhando carbono, fósforo e sinais químicos de perigo por quilômetros de floresta!",
+    "A chamada 'Wood Wide Web' é tecida pelas micorrizas, redes subterrâneas de hifas fúngicas que conectam raízes arbóreas e transferem nutrientes e sinais bioquímicos.",
     "Rede de fungos micorrizas."
   ],
   [
@@ -5137,12 +5137,12 @@ const CURIOSIDADES_QUESTIONS = [
     "Qual é o maior recife de corais vivos do mundo, visível até do espaço sideral, com mais de 2.300 km de extensão?",
     [
       "Recife de Belize",
-      "Grande Barreira de Corais (Austrália)",
-      "Atol de Bikini",
+      "Grande Barreira de Corais",
+      "Atol das Rocas",
       "Recife das Bahamas"
     ],
     1,
-    "Localizada no nordeste da Austrália, a Grande Barreira é o maior organismo e estrutura viva unificada do planeta.",
+    "A Grande Barreira de Corais na costa da Austrália é a maior formação biogênica contínua do planeta, com mais de 2.300 km de extensão.",
     "Fica na costa nordeste australiana."
   ],
   [
@@ -5151,13 +5151,13 @@ const CURIOSIDADES_QUESTIONS = [
     2,
     "Qual porcentagem aproximada de todo o oxigênio atmosférico que respiramos é produzida pelos oceanos (fitoplâncton e algas marinhas)?",
     [
-      "10%",
-      "Mais de 50% (podendo chegar a 70%)",
+      "Cerca de 10%",
+      "Mais de 50%",
       "Apenas 5%",
-      "100%"
+      "Cerca de 100%"
     ],
     1,
-    "Embora as florestas sejam vitais, as algas microscópicas e cianobactérias marinhas como o Prochlorococcus produzem a maior parte do oxigênio global!",
+    "Microrganismos fotossintetizantes dos oceanos, como o fitoplâncton e as cianobactérias, são responsáveis por produzir mais da metade do oxigênio atmosférico do planeta.",
     "Mais da metade de todo o oxigênio."
   ],
   [
@@ -5257,12 +5257,12 @@ const CURIOSIDADES_QUESTIONS = [
     "Qual camada da estratosfera protege a vida na Terra filtrando os nocivos raios ultravioleta tipo B (UV-B) do Sol?",
     [
       "Termosfera",
-      "Camada de Ozônio (O₃)",
+      "Camada de Ozônio",
       "Troposfera",
       "Mesosfera"
     ],
     1,
-    "O Protocolo de Montreal de 1987 baniu os gases CFCs, permitindo que a camada de ozônio começasse um processo histórico de recuperação.",
+    "Localizada na estratosfera, a camada de ozônio (O₃) absorve a maior parte da radiação solar ultravioleta nociva à integridade celular.",
     "A camada de ozônio."
   ],
   [
@@ -5286,13 +5286,13 @@ const CURIOSIDADES_QUESTIONS = [
     2,
     "O que são as chamadas 'ilhas de calor' que afetam metrópoles como São Paulo e Nova York?",
     [
-      "Praias artificiais no centro",
-      "Áreas urbanas que registram temperaturas bem mais altas que as zonas rurais vizinhas pelo excesso de asfalto, concreto e poucos vegetais",
-      "Vulcões inativos sob cidades",
-      "Aquecedores subterrâneos"
+      "Praias artificiais nos centros",
+      "Zonas urbanas mais aquecidas que o entorno",
+      "Bolsões de magma sob as cidades",
+      "Aquecedores industriais no subsolo"
     ],
     1,
-    "Materiais escuros absorvem a radiação solar ao longo do dia e a devolvem à noite, tornando o ar das cidades significativamente mais quente.",
+    "As ilhas de calor urbanas decorrem da substituição da vegetação por superfícies escuras de asfalto e concreto, que absorvem calor diurno e o dissipam lentamente à noite.",
     "Aquecimento urbano pelo asfalto e concreto."
   ],
   [
@@ -5332,12 +5332,12 @@ const CURIOSIDADES_QUESTIONS = [
     "Qual árvore brasileira de madeira nobre e sementes comestíveis (pinhão) é o símbolo vegetal clássico das florestas frias do Sul do país?",
     [
       "Ipê-amarelo",
-      "Araucária (Pinheiro-do-Paraná)",
+      "Araucária",
       "Pau-brasil",
       "Jacarandá"
     ],
     1,
-    "A Araucaria angustifolia forma a Floresta com Araucárias e alimenta roedores, gralhas-azuis e seres humanos com o nutritivo pinhão.",
+    "A Araucaria angustifolia (pinheiro-do-paraná) caracteriza a Floresta Ombrófila Mista do Sul do Brasil e produz o pinhão.",
     "O pinheiro de pinhões do Paraná."
   ],
   [
@@ -5346,13 +5346,13 @@ const CURIOSIDADES_QUESTIONS = [
     3,
     "A ave gralha-azul é famosa na ecologia do Sul do Brasil por qual hábito vital de preservação florestal?",
     [
-      "Construir ninhos de lama",
-      "Enterrar pinhões no solo para comer mais tarde e esquecer o local, plantando novas araucárias",
-      "Caçar cobras venenosas",
-      "Cantar para atrair chuva"
+      "Construir ninhos de lama na copa",
+      "Enterrar pinhões e esquecer o local",
+      "Caçar serpentes venenosas no solo",
+      "Emitir cantos para atrair umidade"
     ],
     1,
-    "Ao armazenar pinhões enterrados na terra fofa durante o outono, a gralha-azul atua como a principal reflorestadora natural dos pinheirais!",
+    "A gralha-azul tem o hábito de enterrar sementes de araucária no solo como reserva de alimento; as sementes esquecidas germinam e perpetuam os pinheirais.",
     "Planta pinhões ao enterrá-los no chão."
   ],
   [
@@ -5362,12 +5362,12 @@ const CURIOSIDADES_QUESTIONS = [
     "O que significa o termo 'biodiversidade' em ecologia?",
     [
       "A velocidade do vento nas florestas",
-      "A variedade total de formas de vida, espécies, genes e ecossistemas de uma região",
-      "O volume de água de um rio",
-      "A quantidade de pedras em uma montanha"
+      "A variedade total de formas de vida",
+      "O volume de água de uma bacia",
+      "A quantidade de minerais do solo"
     ],
     1,
-    "A biodiversidade engloba desde a variabilidade genética dentro de uma mesma espécie até a riqueza de habitats de um bioma inteiro.",
+    "Biodiversidade engloba toda a variabilidade biológica, desde a diversidade genética entre indivíduos até a diversidade de espécies e ecossistemas inteiros.",
     "Variedade de formas de vida."
   ],
   [
@@ -5391,13 +5391,13 @@ const CURIOSIDADES_QUESTIONS = [
     2,
     "O que são 'rios voadores' na climatologia da América do Sul?",
     [
-      "Rios onde nadam peixes com asas",
-      "Imensas correntes de vapor de água transportadas pelos ventos a partir da evapotranspiração da Floresta Amazônica para o Centro-Sul do Brasil",
-      "Nuvens que caem nos oceanos",
-      "Rios no topo de montanhas"
+      "Rios com espécies de peixes alados",
+      "Correntes aéreas de vapor da Amazônia",
+      "Nuvens que precipitam sobre o mar",
+      "Rios que correm no cume de serras"
     ],
     1,
-    "Bilhões de árvores da Amazônia bombeiam água para a atmosfera; essa umidade encontra a barreira dos Andes e desce irrigando as lavouras e reservatórios do Sudeste e Sul.",
+    "Os 'rios voadores' são massas de vapor atmosférico impulsionadas pelos ventos a partir da transpiração das árvores amazônicas, transportando umidade vital para o Centro-Sul.",
     "Vapor de água amazônico que traz chuvas ao Sul."
   ],
   [
@@ -5406,13 +5406,13 @@ const CURIOSIDADES_QUESTIONS = [
     2,
     "A pintura da Mona Lisa de Leonardo da Vinci só se tornou o quadro mais famoso e visitado do mundo após qual evento dramático em 1911?",
     [
-      "Uma menção no cinema mudo",
-      "O roubo espetacular da obra de dentro do Museu do Louvre pelo italiano Vincenzo Peruggia",
-      "A visita da Rainha Vitória",
-      "Uma enchente no Rio Sena"
+      "Uma menção famosa no cinema mudo",
+      "O roubo da obra de dentro do Louvre",
+      "A visita solene da Rainha Vitória",
+      "Uma cheia histórica no Rio Sena"
     ],
     1,
-    "O quadro ficou desaparecido por dois anos; a caçada policial internacional estampou o sorriso da Gioconda na primeira página de todos os jornais do planeta.",
+    "O furto da Mona Lisa por Vincenzo Peruggia em 1911 no Museu do Louvre atraiu cobertura midiática mundial diária por dois anos, tornando o quadro um ícone global.",
     "Foi roubada do Museu do Louvre."
   ],
   [
@@ -5424,10 +5424,10 @@ const CURIOSIDADES_QUESTIONS = [
       "Michelangelo Buonarroti",
       "Leonardo da Vinci",
       "Rafael Sanzio",
-      "Donatello"
+      "Donatello di Bardi"
     ],
     0,
-    "Michelangelo passou quatro anos deitado sobre andaimes de madeira pintando o forro de gesso fresco sob a encomenda do Papa Júlio II.",
+    "Michelangelo Buonarroti executou os afrescos monumentais da abóbada da Capela Sistina entre 1508 e 1512 a pedido do Papa Júlio II.",
     "O gênio escultor de David e da Pietà."
   ],
   [
@@ -5542,12 +5542,12 @@ const CURIOSIDADES_QUESTIONS = [
     "Qual movimento artístico de vanguarda no Brasil teve como tela inaugural o famoso quadro 'Abaporu' pintado por Tarsila do Amaral em 1928?",
     [
       "Romantismo",
-      "Movimento Antropofágico (Antropofagia)",
+      "Movimento Antropofágico",
       "Barroco Mineiro",
       "Realismo"
     ],
     1,
-    "Tarsila deu a tela com o homem de pé gigante e sol a Oswald de Andrade, que se inspirou para criar o Manifesto Antropofágico: 'deglutir a cultura estrangeira e recriá-la brasileira'.",
+    "A pintura 'Abaporu' de Tarsila do Amaral instigou Oswald de Andrade a escrever o Manifesto Antropofágico, marco do modernismo brasileiro.",
     "Inspirou o Manifesto Antropófago."
   ],
   [
@@ -5632,12 +5632,12 @@ const CURIOSIDADES_QUESTIONS = [
     "Qual foi o primeiro longa-metragem de animação tradicional colorido da história do cinema, lançado em 1937 pela Disney?",
     [
       "Pinóquio",
-      "Branca de Neve e os Sete Anões",
+      "Branca de Neve",
       "Fantasia",
       "Bambi"
     ],
     1,
-    "Chamado de 'a loucura de Disney' pelos céticos na época, o filme foi um estrondoso triunfo de bilheteria e faturou um Oscar especial com 7 mini-estatuetas!",
+    "'Branca de Neve e os Sete Anões' (1937) foi o marco pioneiro da Disney na produção de longas-metragens de animação inteiramente coloridos em celuloide.",
     "A história da maçã envenenada e dos anões."
   ],
   [
@@ -5662,12 +5662,12 @@ const CURIOSIDADES_QUESTIONS = [
     "Qual genial escultor e arquiteto barroco do século XVIII em Minas Gerais criava obras-primas em pedra-sabão e madeira mesmo sofrendo de doença degenerativa nas mãos?",
     [
       "Mestre Valentim",
-      "Aleijadinho (Antônio Francisco Lisboa)",
-      "Ataíde",
+      "Aleijadinho",
+      "Mestre Ataíde",
       "Padre Toledo"
     ],
     1,
-    "Aleijadinho amarrava cinzéis e martelos nos pulsos com tiras de couro e esculpiu os célebres doze profetas no santuário de Congonhas.",
+    "Antônio Francisco Lisboa, o Aleijadinho, superou limitações motoras crônicas para esculpir monumentos e talhas sacras barrocas fundamentais em Minas Gerais.",
     "Antônio Francisco Lisboa."
   ],
   [
@@ -5706,13 +5706,13 @@ const CURIOSIDADES_QUESTIONS = [
     2,
     "Na remota ilha de Yap na Micronésia, qual item bizarro serviu como moeda de troca oficial por séculos e algumas pesam toneladas?",
     [
-      "Conchas douradas",
-      "Discos gigantes de pedra calcária com furo no meio (Pedras Rai)",
-      "Bico de tucano",
-      "Dentes de tubarão"
+      "Conchas marinhas douradas",
+      "Discos gigantes de pedra com furo",
+      "Bicos afiados de tucano",
+      "Dentes fósseis de tubarão"
     ],
     1,
-    "As 'Pedras Rai' eram tão pesadas que ficavam paradas no chão da aldeia; mesmo quando uma caiu e afundou no mar em uma tempestade, todos concordaram que ela continuava valendo!",
+    "As pedras Rai da ilha de Yap eram discos monolíticos de calcário entalhado cujo valor simbólico e posse eram reconhecidos pela comunidade mesmo sem movimentação física.",
     "Imensas pedras circulares de calcário com furo."
   ],
   [
@@ -5751,13 +5751,13 @@ const CURIOSIDADES_QUESTIONS = [
     3,
     "O físico Sir Isaac Newton foi diretor da Casa da Moeda da Inglaterra por 30 anos e introduziu uma engenhosa inovação nas moedas de metal para evitar roubos. Qual foi?",
     [
-      "Pintar as moedas com verniz",
-      "Fazer pequenas ranhuras e ranhuras serrilhadas na borda das moedas",
-      "Fazer as moedas quadradas",
-      "Gravar números secretos no centro"
+      "Pintar moedas com verniz protetor",
+      "Fazer ranhuras serrilhadas na borda",
+      "Cunhar as moedas em formato quadrado",
+      "Gravar códigos secretos no centro"
     ],
     1,
-    "Antigamente, as pessoas raspavam as bordas de ouro e prata das moedas redondas; com a borda serrilhada, qualquer raspagem ficava evidente na hora!",
+    "Como Master of the Mint, Sir Isaac Newton instituiu o serrilhado nas bordas das moedas britânicas para evidenciar a prática criminosa de raspar metais preciosos das bordas.",
     "Ranhuras serrilhadas no aro da moeda."
   ],
   [
@@ -5767,12 +5767,12 @@ const CURIOSIDADES_QUESTIONS = [
     "Qual é o nome do imposto incidente sobre operações de compra e venda de produtos e mercadorias no Brasil cobrado pelos estados?",
     [
       "IPTU",
-      "ICMS (Imposto sobre Circulação de Mercadorias e Serviços)",
+      "ICMS",
       "IPVA",
       "IOF"
     ],
     1,
-    "O ICMS é um tributo de competência estadual embutido no preço final de quase todos os produtos e serviços de transporte e energia.",
+    "O ICMS (Imposto sobre Operações relativas à Circulação de Mercadorias e Prestação de Serviços) é o principal tributo indireto de competência dos estados brasileiros.",
     "O imposto estadual sobre mercadorias."
   ],
   [
@@ -5782,12 +5782,12 @@ const CURIOSIDADES_QUESTIONS = [
     "Qual físico Albert Einstein teria descrito (segundo anedota financeira) como a 'oitava maravilha do mundo' e a maior força matemática do universo?",
     [
       "A inflação acumulada",
-      "Os juros compostos ('juros sobre juros')",
-      "A taxa Selic",
+      "Os juros compostos",
+      "A taxa Selic básica",
       "O câmbio flutuante"
     ],
     1,
-    "Nos juros compostos, o rendimento de cada período soma-se ao capital anterior, multiplicando os valores de forma exponencial ao longo do tempo.",
+    "O regime de juros compostos aplica rendimentos sobre o saldo corrigido de cada período, gerando crescimento exponencial do patrimônio ao longo do tempo.",
     "A mágica dos juros sobre juros."
   ],
   [
@@ -5812,12 +5812,12 @@ const CURIOSIDADES_QUESTIONS = [
     "O que representa a 'Taxa Selic' na economia brasileira?",
     [
       "O imposto de renda sobre salários",
-      "A taxa básica de juros da economia definida pelo Comitê de Política Monetária (COPOM)",
-      "A cotação do dólar comercial",
-      "O índice de desemprego"
+      "A taxa básica de juros da economia",
+      "A cotação oficial do dólar comercial",
+      "O índice de desemprego nas capitais"
     ],
     1,
-    "A Selic (Sistema Especial de Liquidação e de Custódia) baliza todas as outras taxas de empréstimos, financiamentos e rendimentos da renda fixa no país.",
+    "A taxa Selic é a taxa referencial de juros da economia brasileira estipulada pelo Banco Central (COPOM), orientando o custo de crédito e a remuneração de títulos soberanos.",
     "A taxa básica de juros oficial do Banco Central."
   ],
   [
@@ -5841,13 +5841,13 @@ const CURIOSIDADES_QUESTIONS = [
     2,
     "O que significa dizer que um investidor está aplicando a regra de 'não colocar todos os ovos na mesma cesta'?",
     [
-      "Que ele compra apenas empresas de alimentos",
-      "Que ele está diversificando seus investimentos para diluir riscos",
-      "Que ele guarda dinheiro em casa",
-      "Que ele só aposta na poupança"
+      "Comprar apenas ações de alimentação",
+      "Diversificar aplicações para diluir risco",
+      "Guardar valores em dinheiro vivo em casa",
+      "Aplicar todo o capital na poupança"
     ],
     1,
-    "Distribuir o capital entre diferentes classes (renda fixa, ações, moedas, imóveis) impede que uma crise em um único setor destrua todo o patrimônio.",
+    "A diversificação de ativos aloca recursos em múltiplos instrumentos e classes descorrelacionadas, mitigando o risco específico de perdas patrimoniais concentradas.",
     "Diversificação de riscos."
   ],
   [
@@ -5856,13 +5856,13 @@ const CURIOSIDADES_QUESTIONS = [
     3,
     "O famoso 'Índice Big Mac', criado pela revista britânica The Economist em 1986, é uma ferramenta divertida e prática para comparar:",
     [
-      "A quantidade de gordura dos lanches",
-      "A Paridade do Poder de Compra (PPC) e se as moedas de diferentes países estão subvalorizadas ou sobrevalorizadas frente ao dólar",
-      "O salário dos cozinheiros",
-      "A inflação de sementes de gergelim"
+      "A taxa calórica dos sanduíches",
+      "A paridade do poder de compra de moedas",
+      "O piso salarial dos atendentes",
+      "O custo de transporte de sementes"
     ],
     1,
-    "Como os ingredientes do Big Mac são padronizados no mundo inteiro, comparar seu preço em moeda local converte uma teoria econômica complexa em número tangível.",
+    "O Índice Big Mac da revista The Economist avalia a Paridade do Poder de Compra (PPC) global comparando o custo de um produto idêntico em diferentes economias.",
     "Compara o poder de compra e o valor das moedas."
   ],
   [
@@ -5871,13 +5871,13 @@ const CURIOSIDADES_QUESTIONS = [
     1,
     "O que é 'inflação' em termos práticos para o consumidor comum?",
     [
-      "O aumento de salário",
-      "A perda generalizada e contínua do poder de compra do dinheiro com o aumento dos preços",
-      "A queda dos juros",
-      "A chegada de produtos importados"
+      "O aumento dos salários nominais",
+      "A perda contínua do poder de compra",
+      "A queda periódica das taxas de juros",
+      "A entrada de manufaturados importados"
     ],
     1,
-    "Com inflação alta, as mesmas notas de dinheiro compram uma cesta cada vez menor de mantimentos no supermercado.",
+    "Inflação reflete o aumento generalizado e contínuo no nível de preços, acarretando a desvalorização do poder aquisitivo da moeda corrente.",
     "Quando os preços sobem e o dinheiro rende menos."
   ],
   [
@@ -5901,13 +5901,13 @@ const CURIOSIDADES_QUESTIONS = [
     3,
     "Qual é o significado do termo financeiro 'Liquidez'?",
     [
-      "A quantidade de moedas de metal",
-      "A facilidade e rapidez com que um bem ou investimento pode ser convertido em dinheiro disponível sem perda relevante de valor",
-      "O saldo negativo da conta",
-      "A água usada pelas fábricas"
+      "A soma de moedas metálicas em circulação",
+      "A rapidez de converter um ativo em dinheiro",
+      "O saldo negativo em conta corrente",
+      "O fluxo de água utilizado na indústria"
     ],
     1,
-    "O dinheiro na conta corrente tem liquidez imediata; já um imóvel residencial tem baixa liquidez, pois pode levar meses para ser vendido.",
+    "Liquidez expressa a velocidade e a facilidade com que um ativo financeiro pode ser resgatado e convertido em moeda de troca imediata sem deságio expressivo.",
     "Facilidade de transformar ativo em dinheiro."
   ],
   [
@@ -5916,13 +5916,13 @@ const CURIOSIDADES_QUESTIONS = [
     1,
     "Em finanças pessoais, qual é a quantia recomendada de meses de despesas básicas que uma 'Reserva de Emergência' sólida deve cobrir?",
     [
-      "Apenas 2 dias",
-      "Entre 3 e 6 meses de gastos essenciais",
-      "50 anos de salário",
-      "Zero, não precisa guardar"
+      "Apenas 2 dias de compras",
+      "Entre 3 e 6 meses de gastos",
+      "50 anos de rendimento bruto",
+      "Zero, não se deve poupar"
     ],
     1,
-    "Guardar o equivalente a 3 a 6 meses de custo fixo em investimentos seguros e de resgate diário protege contra demissões inesperadas ou emergências médicas.",
+    "Especialistas em finanças pessoais recomendam manter de 3 a 6 meses de despesas vitais em ativos de baixíssima volatilidade e liquidez diária para contingências.",
     "De três a seis meses de despesas."
   ],
   [
@@ -5932,12 +5932,12 @@ const CURIOSIDADES_QUESTIONS = [
     "Qual é o principal índice que mede a inflação oficial no Brasil, calculado mensalmente pelo IBGE?",
     [
       "IGP-M",
-      "IPCA (Índice Nacional de Preços ao Consumidor Amplo)",
+      "IPCA",
       "INPC",
       "Selic"
     ],
     1,
-    "O IPCA afere a variação de custo de vida para famílias com rendimento de 1 a 40 salários mínimos e baliza as metas de inflação do governo.",
+    "O IPCA (Índice Nacional de Preços ao Consumidor Amplo), mensurado pelo IBGE, é o termômetro oficial da inflação adotado no regime de metas monetárias do Brasil.",
     "A sigla IPCA do IBGE."
   ],
   [
@@ -5946,13 +5946,13 @@ const CURIOSIDADES_QUESTIONS = [
     3,
     "O que diz a Lei Econômica Fundamental da 'Oferta e da Procura' sobre a formação de preços de mercado?",
     [
-      "O preço nunca muda",
-      "Quando a demanda por um item supera a oferta disponível, o preço tende a subir; se há excesso de oferta e pouca procura, o preço cai",
-      "O governo define todos os valores",
-      "Tudo fica mais caro nas segundas-feiras"
+      "O valor fixo imposto pelo mercado",
+      "Preços sobem com procura alta e caem com oferta",
+      "O estado fixa todas as mercadorias",
+      "Produtos encarecem nas segundas"
     ],
     1,
-    "É o mecanismo espontâneo do mercado que equilibra o interesse dos compradores com o volume produzido pelos vendedores.",
+    "A lei da oferta e da procura regula os equilíbrios de preço: escassez com demanda aquecida eleva valores, ao passo que excesso de bens disponíveis pressiona preços para baixo.",
     "Equilíbrio entre compradores e mercadorias disponíveis."
   ],
   [
@@ -5977,12 +5977,12 @@ const CURIOSIDADES_QUESTIONS = [
     "Qual foi a primeira moeda oficial de circulação nacional cunhada no Brasil pelo Império em 1833?",
     [
       "O Cruzeiro",
-      "O Réis (Real colonial/imperial)",
+      "O Réis",
       "O Cruzado",
       "O Tostão"
     ],
     1,
-    "O Réis (plural arcaico de Real) foi a moeda do Brasil colonial e imperial e durou até 1942, quando foi substituído pelo Cruzeiro.",
+    "O Réis (plural de Real no padrão arcaico) foi a unidade monetária corrente do Brasil desde o período colonial e durante todo o Império até meados do século XX.",
     "Os antigos Réis."
   ],
   [
@@ -5991,13 +5991,13 @@ const CURIOSIDADES_QUESTIONS = [
     2,
     "O que é o conceito de 'Custo de Oportunidade' na tomada de decisões econômicas?",
     [
-      "O preço de uma promoção na loja",
-      "O valor do benefício que você deixa de ganhar ao escolher uma alternativa em detrimento de outra",
-      "A taxa de entrega de um produto",
-      "O valor de um cupom de desconto"
+      "O valor com desconto na compra",
+      "O ganho da opção que você abre mão",
+      "O custo de frete na entrega rápida",
+      "O bônus de pontos no cartão"
     ],
     1,
-    "Ao gastar R$ 5.000 em uma viagem de férias, o custo de oportunidade é o que esse dinheiro renderia investido ou os outros objetivos que foram adiados.",
+    "Custo de oportunidade representa o valor do melhor benefício alternativo não usufruído ao se tomar uma decisão econômica excludente.",
     "O ganho da alternativa que você abriu mão."
   ]
 ];
