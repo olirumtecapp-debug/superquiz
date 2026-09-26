@@ -473,9 +473,9 @@
                         <i class="fas fa-download text-xs text-blue-200"></i>
                         <span>Instalar</span>
                     </button>
-                    <button id="share-toggle" class="fx-toggle btn-press" onclick="app.openShareModal('app')" aria-label="Compartilhar Quiz" title="Compartilhar Quiz"><i class="fas fa-share-nodes text-blue-200"></i></button>
+                    <button id="share-toggle" class="hidden sm:inline-flex fx-toggle btn-press" onclick="app.openShareModal('app')" aria-label="Compartilhar Quiz" title="Compartilhar Quiz"><i class="fas fa-share-nodes text-blue-200"></i></button>
                     <button id="theme-toggle" class="theme-toggle btn-press" onclick="app.toggleTheme()" aria-label="Alternar modo claro e escuro" title="Alternar tema"><i class="fas fa-moon"></i></button>
-                    <button id="sound-toggle" class="fx-toggle btn-press" onclick="app.toggleSound()" aria-label="Desativar sons" title="Desativar sons"><i class="fas fa-volume-high"></i></button>
+                    <button id="sound-toggle" class="hidden sm:inline-flex fx-toggle btn-press" onclick="app.toggleSound()" aria-label="Desativar sons" title="Desativar sons"><i class="fas fa-volume-high"></i></button>
                     <button onclick="app.navigate('ranking')" class="fx-toggle btn-press" aria-label="Hall da Fama" title="Hall da Fama / Ranking"><i class="fas fa-trophy text-yellow-300"></i></button>
                     <div class="flex items-center gap-1 px-2.5 sm:px-3 py-1 rounded-full border border-white/20 cursor-pointer hover:bg-white/15 transition" style="background:rgba(255,255,255,.12)" onclick="app.navigate('profile')">
                         <i class="fas fa-star text-yellow-400"></i>
@@ -506,14 +506,14 @@
                             <span class="text-[9px] font-bold uppercase text-blue-300 block leading-tight">dias</span>
                         </div>
                     </div>
-                    <div class="flex gap-2 px-5 pb-4">
-                        <button onclick="app.startReview()" class="flex-1 flex items-center justify-center gap-1.5 bg-white font-black text-xs px-2.5 py-2 rounded-lg btn-press" style="color:#1e3a6e">
+                    <div class="grid grid-cols-2 sm:grid-cols-3 gap-2 px-5 pb-4">
+                        <button onclick="app.startReview()" class="flex items-center justify-center gap-1.5 bg-white font-black text-xs px-2.5 py-2 rounded-lg btn-press" style="color:#1e3a6e">
                             <i class="fas fa-rotate"></i> Revisar
                         </button>
-                        <button onclick="app.startDaily()" class="flex-1 flex items-center justify-center gap-1.5 font-black text-white text-xs px-2.5 py-2 rounded-lg btn-press border border-white/20" style="background:rgba(255,255,255,.14)">
+                        <button onclick="app.startDaily()" class="flex items-center justify-center gap-1.5 font-black text-white text-xs px-2.5 py-2 rounded-lg btn-press border border-white/20" style="background:rgba(255,255,255,.14)">
                             <i class="fas fa-star text-yellow-300"></i> Desafio
                         </button>
-                        <button onclick="app.openShareModal('app')" class="flex-1 flex items-center justify-center gap-1.5 font-black text-white text-xs px-2.5 py-2 rounded-lg btn-press border border-white/20" style="background:rgba(255,255,255,.14)" title="Compartilhar Quiz com amigos">
+                        <button onclick="app.openShareModal('app')" class="col-span-2 sm:col-span-1 flex items-center justify-center gap-1.5 font-black text-white text-xs px-2.5 py-2 rounded-lg btn-press border border-white/20" style="background:rgba(255,255,255,.14)" title="Compartilhar Quiz com amigos">
                             <i class="fas fa-share-nodes text-blue-200"></i> Compartilhar
                         </button>
                     </div>
