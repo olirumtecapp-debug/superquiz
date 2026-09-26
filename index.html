@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz Master - Aprenda e Divirta-se</title>
+    <meta name="theme-color" content="#0f2044">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Quiz Master">
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="icons/icon-192.png">
+    <link rel="icon" type="image/png" href="icons/icon-192.png">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
     <style>
@@ -159,6 +166,10 @@
         .dark-theme #share-preview-text { background-color: #0e1628 !important; border-color: #253555 !important; color: #cbd5e1 !important; }
         .dark-theme #btn-copy-link { background-color: #1e293b !important; color: #e2e8f0 !important; }
         .dark-theme #btn-copy-link:hover { background-color: #334155 !important; }
+        .dark-theme #modal-install-guide .bg-white { background-color: #152035 !important; border-color: #253555 !important; }
+        .dark-theme #install-guide-ios, .dark-theme #install-guide-general { background-color: #0e1628 !important; border-color: #253555 !important; color: #cbd5e1 !important; }
+        .dark-theme #home-install-banner { background-color: #152035 !important; border-color: #253555 !important; }
+        .dark-theme #prof-install-card { background-color: #152035 !important; border-color: #253555 !important; }
         @media (prefers-color-scheme: dark) { body.auto-theme { background-color: #080f1e; } }
 
         .dark-theme #view-home, .dark-theme #view-categories, .dark-theme #view-results, .dark-theme #view-profile, .dark-theme #view-review, .dark-theme #view-quiz { background: #0e1628 !important; color: #e8eef8; }
@@ -458,6 +469,10 @@
                     <h1 class="font-black text-xl tracking-tight uppercase">Quiz Master</h1>
                 </div>
                 <div class="flex items-center gap-1.5 sm:gap-2 text-sm font-bold">
+                    <button id="btn-install-header" class="hidden md:inline-flex items-center gap-1.5 px-3 py-1 rounded-full border border-blue-400/40 bg-blue-500/20 text-white font-bold text-xs hover:bg-blue-500/30 transition btn-press cursor-pointer" onclick="app.triggerInstall()" title="Instalar Quiz Master no PC">
+                        <i class="fas fa-download text-xs text-blue-200"></i>
+                        <span>Instalar</span>
+                    </button>
                     <button id="share-toggle" class="fx-toggle btn-press" onclick="app.openShareModal('app')" aria-label="Compartilhar Quiz" title="Compartilhar Quiz"><i class="fas fa-share-nodes text-blue-200"></i></button>
                     <button id="theme-toggle" class="theme-toggle btn-press" onclick="app.toggleTheme()" aria-label="Alternar modo claro e escuro" title="Alternar tema"><i class="fas fa-moon"></i></button>
                     <button id="sound-toggle" class="fx-toggle btn-press" onclick="app.toggleSound()" aria-label="Desativar sons" title="Desativar sons"><i class="fas fa-volume-high"></i></button>
@@ -581,6 +596,23 @@
                     <div class="w-full rounded-full h-2 overflow-hidden relative z-10" style="background:rgba(255,255,255,.18)">
                         <div id="home-xp-bar" class="bg-gradient-to-r from-yellow-400 to-yellow-300 h-full rounded-full progress-bar-fill" style="width:0%"></div>
                     </div>
+                </div>
+
+                <!-- Install App Banner (Mobile & PC) -->
+                <div id="home-install-banner" class="mt-2.5 rounded-xl px-4 py-2.5 flex items-center justify-between gap-3 shadow-sm border border-blue-200/60 bg-white" style="border-left: 4px solid #2563eb;">
+                    <div class="flex items-center gap-2.5 min-w-0">
+                        <div class="w-8 h-8 rounded-lg bg-blue-50 text-blue-600 flex items-center justify-center text-sm flex-shrink-0">
+                            <i class="fas fa-download"></i>
+                        </div>
+                        <div class="min-w-0">
+                            <h4 class="text-xs font-black text-gray-800 leading-tight">Instalar Aplicativo</h4>
+                            <p class="text-[10px] text-gray-500 leading-tight mt-0.5 truncate">Jogue em tela cheia na tela inicial do celular ou PC</p>
+                        </div>
+                    </div>
+                    <button onclick="app.triggerInstall()" class="flex-shrink-0 bg-blue-600 hover:bg-blue-700 text-white font-black text-[11px] px-3 py-1.5 rounded-lg btn-press shadow transition flex items-center gap-1">
+                        <i class="fas fa-plus text-[9px]"></i>
+                        <span>Instalar</span>
+                    </button>
                 </div>
             </main>
 
@@ -867,6 +899,22 @@
                     <p id="prof-xp-next" class="text-xs text-gray-400 mt-2 font-bold z-10">Faltam X XP para o próximo nível</p>
                 </div>
 
+                <!-- Card de Instalar App no Perfil -->
+                <div id="prof-install-card" class="bg-white rounded-2xl p-4 shadow-sm border border-gray-100 flex items-center justify-between mb-6">
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center text-lg flex-shrink-0">
+                            <i class="fas fa-download"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-gray-800 text-sm">Instalar Aplicativo</h4>
+                            <p class="text-xs text-gray-400">Adicione à tela inicial do celular ou PC</p>
+                        </div>
+                    </div>
+                    <button onclick="app.triggerInstall()" class="bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs px-3.5 py-2 rounded-xl btn-press shadow transition flex-shrink-0">
+                        Instalar
+                    </button>
+                </div>
+
                 <h3 class="font-black text-gray-800 text-lg mb-3">Estatísticas</h3>
                 <div class="grid grid-cols-2 gap-3 mb-8">
                     <div class="bg-white p-4 rounded-2xl shadow-sm border border-gray-100 flex items-center gap-3">
@@ -1047,6 +1095,61 @@
                     <!-- Toast de confirmação -->
                     <div id="share-toast" class="hidden mt-3 text-xs font-bold text-emerald-600 bg-emerald-50 border border-emerald-200 py-1.5 px-3 rounded-lg animate-pop">
                         <i class="fas fa-check-circle mr-1"></i> Link copiado com sucesso!
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal Guia de Instalação -->
+            <div id="modal-install-guide" class="fixed inset-0 bg-black/60 z-[80] hidden items-center justify-center backdrop-blur-sm p-4">
+                <div class="bg-white rounded-3xl p-6 sm:p-7 max-w-sm w-full text-center shadow-2xl animate-pop border border-blue-100 relative">
+                    <button onclick="app.closeInstallModal()" class="absolute top-4 right-4 w-8 h-8 rounded-full bg-gray-100 hover:bg-gray-200 flex items-center justify-center text-gray-400 hover:text-gray-600 transition" aria-label="Fechar modal">
+                        <i class="fas fa-xmark"></i>
+                    </button>
+
+                    <div class="w-16 h-16 rounded-2xl bg-blue-100 text-blue-600 flex items-center justify-center text-3xl mx-auto mb-3">
+                        <i class="fas fa-mobile-screen"></i>
+                    </div>
+                    <h3 id="install-modal-title" class="text-xl font-black text-gray-800 uppercase tracking-tight mb-1">Instalar Quiz Master</h3>
+                    <p id="install-modal-desc" class="text-xs font-semibold text-gray-500 mb-4">Adicione o aplicativo à sua tela inicial para jogar em tela cheia com 1 toque!</p>
+
+                    <!-- Guia específico para iOS Safari -->
+                    <div id="install-guide-ios" class="hidden text-left bg-slate-50 border border-slate-200 rounded-2xl p-4 mb-4 space-y-3">
+                        <div class="flex items-start gap-3">
+                            <span class="w-6 h-6 rounded-full bg-blue-600 text-white font-black text-xs flex items-center justify-center flex-shrink-0 mt-0.5">1</span>
+                            <p class="text-xs text-gray-700 font-bold">Toque no botão <span class="inline-flex items-center gap-1 bg-white px-2 py-0.5 rounded border border-gray-200 text-blue-600"><i class="fas fa-arrow-up-from-bracket"></i> Compartilhar</span> na barra do Safari.</p>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <span class="w-6 h-6 rounded-full bg-blue-600 text-white font-black text-xs flex items-center justify-center flex-shrink-0 mt-0.5">2</span>
+                            <p class="text-xs text-gray-700 font-bold">Role para baixo e toque em <span class="inline-flex items-center gap-1 bg-white px-2 py-0.5 rounded border border-gray-200 text-gray-800"><i class="fas fa-square-plus"></i> Adicionar à Tela de Início</span>.</p>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <span class="w-6 h-6 rounded-full bg-blue-600 text-white font-black text-xs flex items-center justify-center flex-shrink-0 mt-0.5">3</span>
+                            <p class="text-xs text-gray-700 font-bold">Toque em <span class="text-blue-600 font-black">"Adicionar"</span> no canto superior direito.</p>
+                        </div>
+                    </div>
+
+                    <!-- Informações gerais para Android / PC -->
+                    <div id="install-guide-general" class="text-left bg-slate-50 border border-slate-200 rounded-2xl p-4 mb-4 space-y-2">
+                        <div class="flex items-center gap-2.5 text-xs text-gray-700 font-bold">
+                            <i class="fas fa-check-circle text-emerald-500 text-sm"></i>
+                            <span>Carregamento instantâneo</span>
+                        </div>
+                        <div class="flex items-center gap-2.5 text-xs text-gray-700 font-bold">
+                            <i class="fas fa-check-circle text-emerald-500 text-sm"></i>
+                            <span>Modo tela cheia sem barras de navegador</span>
+                        </div>
+                        <div class="flex items-center gap-2.5 text-xs text-gray-700 font-bold">
+                            <i class="fas fa-check-circle text-emerald-500 text-sm"></i>
+                            <span>Acesso direto na área de trabalho ou celular</span>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-2">
+                        <button onclick="app.closeInstallModal()" class="flex-1 bg-gray-100 hover:bg-gray-200 text-gray-600 font-bold py-3 rounded-xl btn-press text-xs">Fechar</button>
+                        <button id="btn-modal-install-action" onclick="app.executeInstallPrompt()" class="flex-1 bg-blue-600 hover:bg-blue-700 text-white font-black py-3 rounded-xl btn-press shadow-md text-xs flex items-center justify-center gap-1.5">
+                            <i class="fas fa-download"></i>
+                            <span>Instalar Agora</span>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -1712,6 +1815,7 @@
                 this.updateSoundButton();
                 this.renderCategories();
                 this.updateGlobalHeader();
+                this.initPWA();
                 this.navigate('home');
                 window.addEventListener('resize', () => { const canvas = document.getElementById('confetti-canvas'); if (canvas) { canvas.width = innerWidth * Math.min(devicePixelRatio || 1, 2); canvas.height = innerHeight * Math.min(devicePixelRatio || 1, 2); } });
                 document.addEventListener('keydown', (event) => { if (state.view === 'quiz' && !state.quiz.answeredCurrent && ['1','2','3','4'].includes(event.key)) { const button = document.querySelectorAll('.option-btn')[Number(event.key)-1]; if (button) button.click(); } if (event.key === 'Escape' && state.view === 'quiz') this.togglePause(); });
@@ -2758,8 +2862,103 @@
                         if (copyBtnText) copyBtnText.innerText = 'Copiar Link e Mensagem';
                     }, 2500);
                 }
+            },
+
+            deferredInstallPrompt: null,
+            isInstalled: false,
+
+            initPWA() {
+                const isStandalone = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
+                this.isInstalled = isStandalone;
+                this.updateInstallUI();
+            },
+
+            updateInstallUI() {
+                const headerBtn = document.getElementById('btn-install-header');
+                const homeBanner = document.getElementById('home-install-banner');
+                const profCard = document.getElementById('prof-install-card');
+
+                if (this.isInstalled) {
+                    if (headerBtn) headerBtn.style.display = 'none';
+                    if (homeBanner) homeBanner.style.display = 'none';
+                    if (profCard) profCard.style.display = 'none';
+                }
+            },
+
+            isIOS() {
+                return /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+            },
+
+            triggerInstall() {
+                const isIos = this.isIOS();
+                const modal = document.getElementById('modal-install-guide');
+                const guideIos = document.getElementById('install-guide-ios');
+                const guideGen = document.getElementById('install-guide-general');
+                const actionBtn = document.getElementById('btn-modal-install-action');
+
+                if (this.deferredInstallPrompt) {
+                    this.executeInstallPrompt();
+                } else if (isIos) {
+                    if (guideIos) guideIos.classList.remove('hidden');
+                    if (guideGen) guideGen.classList.add('hidden');
+                    if (actionBtn) actionBtn.classList.add('hidden');
+                    if (modal) { modal.classList.remove('hidden'); modal.classList.add('flex'); }
+                } else {
+                    if (guideIos) guideIos.classList.add('hidden');
+                    if (guideGen) guideGen.classList.remove('hidden');
+                    if (actionBtn) {
+                        actionBtn.classList.remove('hidden');
+                        actionBtn.innerHTML = '<i class="fas fa-check mr-1"></i> Entendido';
+                        actionBtn.onclick = () => app.closeInstallModal();
+                    }
+                    if (modal) { modal.classList.remove('hidden'); modal.classList.add('flex'); }
+                }
+            },
+
+            executeInstallPrompt() {
+                if (this.deferredInstallPrompt) {
+                    this.deferredInstallPrompt.prompt();
+                    this.deferredInstallPrompt.userChoice.then((choiceResult) => {
+                        if (choiceResult && choiceResult.outcome === 'accepted') {
+                            this.isInstalled = true;
+                            this.updateInstallUI();
+                        }
+                        this.deferredInstallPrompt = null;
+                        this.closeInstallModal();
+                    }).catch(() => {
+                        this.closeInstallModal();
+                    });
+                }
+            },
+
+            closeInstallModal() {
+                const modal = document.getElementById('modal-install-guide');
+                if (modal) {
+                    modal.classList.add('hidden');
+                    modal.classList.remove('flex');
+                }
             }
         };
+
+        window.addEventListener('beforeinstallprompt', (e) => {
+            e.preventDefault();
+            app.deferredInstallPrompt = e;
+            app.updateInstallUI();
+        });
+
+        window.addEventListener('appinstalled', () => {
+            app.deferredInstallPrompt = null;
+            app.isInstalled = true;
+            app.updateInstallUI();
+        });
+
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/sw.js').catch((err) => {
+                    console.warn('ServiceWorker registration error:', err);
+                });
+            });
+        }
 
         window.onload = () => { app.init(); };
 
