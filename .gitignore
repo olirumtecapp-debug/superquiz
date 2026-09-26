@@ -1,0 +1,14 @@
+# Dev server (local only)
+server.mjs
+
+# Question generation scripts (dev tools)
+generate_curiosities.mjs
+combine.mjs
+questions_batch*.js
+
+# Node modules (if any)
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
