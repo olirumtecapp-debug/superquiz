@@ -186,7 +186,7 @@
         }
         /* VIEWPORT-FIT SYSTEM: 100% sem rolagem no desktop e proporção ideal */
         html, body {
-            height: 100%;
+            height: 100dvh !important;
             width: 100%;
             margin: 0;
             padding: 0;
@@ -202,7 +202,7 @@
         #app {
             width: 100% !important;
             max-width: 1040px !important;
-            height: 100% !important;
+            height: 100dvh !important;
             max-height: calc(100dvh - 12px) !important;
             padding: 0 !important;
             display: flex !important;
@@ -236,8 +236,7 @@
         #view-home {
             padding: 8px 20px !important;
             justify-content: space-evenly !important;
-            overflow-y: auto !important;
-            overflow-x: hidden !important;
+            overflow: hidden !important;
         }
         #view-home > .text-center {
             margin-bottom: 4px !important;
@@ -495,14 +494,14 @@
                     <p class="text-sm font-semibold" style="color:#5a7aad">Aprenda em pequenas missões e veja seu conhecimento crescer.</p>
                 </div>
 
-                <div class="hero-orbit rounded-2xl text-white mb-4 max-w-2xl mx-auto shadow-lg overflow-hidden flex-shrink-0">
+                <div class="hero-orbit rounded-2xl text-white mb-4 max-w-2xl mx-auto shadow-lg overflow-hidden">
                     <div class="flex items-center gap-4 px-5 py-4">
                         <div class="flex-1 min-w-0">
                             <span class="text-[10px] font-black uppercase tracking-[.15em] text-blue-300 block mb-0.5">JORNADA DE HOJE</span>
                             <h3 class="text-base font-black leading-snug">Uma pergunta pode mudar o que você sabe.</h3>
                             <p class="text-blue-200 text-xs mt-1">Escolha uma trilha ou retome os conceitos em aberto.</p>
                         </div>
-                        <div class="journey-card rounded-xl px-4 py-2.5 text-center flex-shrink-0">
+                        <div class="journey-card rounded-xl px-4 py-2.5 text-center">
                             <strong id="home-streak" class="block text-2xl font-black">0</strong>
                             <span class="text-[9px] font-bold uppercase text-blue-300 block leading-tight">dias</span>
                         </div>
@@ -520,7 +519,7 @@
                     </div>
                 </div>
 
-                <div id="home-mode-grid" class="grid grid-cols-2 md:grid-cols-3 gap-3 max-w-3xl mx-auto mb-4 flex-shrink-0">
+                <div id="home-mode-grid" class="grid grid-cols-2 md:grid-cols-3 gap-3 max-w-3xl mx-auto mb-4">
                     <button onclick="app.showCategorySelector('quick')" class="mode-card btn-press group bg-white border border-slate-200 hover:border-blue-300 hover:shadow-md rounded-xl p-3 transition-all flex flex-col items-center justify-center gap-2">
                         <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-blue-500 to-blue-700 group-hover:scale-105 transition-transform flex items-center justify-center shadow-sm">
                             <i class="fas fa-bolt text-white text-xl"></i>
@@ -582,7 +581,7 @@
                     </button>
                 </div>
 
-                <div id="home-progress-card" class="text-white rounded-xl px-5 py-3.5 shadow-md relative overflow-hidden flex-shrink-0" style="background: linear-gradient(135deg, #0f2044, #1e3a6e);">
+                <div id="home-progress-card" class="text-white rounded-xl px-5 py-3.5 shadow-md relative overflow-hidden" style="background: linear-gradient(135deg, #0f2044, #1e3a6e);">
                     <div class="flex items-center justify-between mb-2 relative z-10">
                         <div class="flex items-center gap-2">
                             <i class="fas fa-chart-line text-blue-300 text-sm"></i>
@@ -600,7 +599,7 @@
                 </div>
 
                 <!-- Install App Banner (Mobile & PC) -->
-                <div id="home-install-banner" class="mt-2.5 rounded-xl px-4 py-3 flex flex-col sm:flex-row items-center sm:justify-between gap-3 sm:gap-4 shadow-sm border border-blue-200/60 bg-white flex-shrink-0" style="border-left: 4px solid #2563eb;">
+                <div id="home-install-banner" class="mt-2.5 rounded-xl px-4 py-3 flex flex-col sm:flex-row items-center sm:justify-between gap-3 sm:gap-4 shadow-sm border border-blue-200/60 bg-white" style="border-left: 4px solid #2563eb;">
                     <div class="flex items-center gap-3 min-w-0 w-full sm:w-auto">
                         <div class="w-8 h-8 rounded-lg bg-blue-50 text-blue-600 flex items-center justify-center text-sm flex-shrink-0">
                             <i class="fas fa-download"></i>
@@ -749,7 +748,7 @@
 
                 <!-- Overlay de Feedback (Acertou/Errou) -->
                 <div id="feedback-overlay" class="absolute inset-0 bg-black bg-opacity-40 z-50 hidden flex-col justify-end">
-                    <div id="feedback-card" class="bg-white w-full rounded-t-3xl p-6 transform translate-y-full transition-transform duration-300 ease-out flex flex-col max-h-[85dvh]">
+                    <div id="feedback-card" class="bg-white w-full rounded-t-3xl p-6 pb-[calc(1.5rem+env(safe-area-inset-bottom))] transform translate-y-full transition-transform duration-300 ease-out flex flex-col max-h-[85dvh]">
                         <div class="flex items-center gap-3 mb-2">
                             <div id="feedback-icon" class="w-12 h-12 rounded-full flex items-center justify-center text-2xl font-black text-white bg-green-500">
                                 <i class="fas fa-check"></i>
