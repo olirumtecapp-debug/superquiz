@@ -384,6 +384,10 @@
                 border-radius: 14px !important;
                 flex-shrink: 0 !important;
             }
+            /* No desktop o botão Instalar já fica no cabeçalho superior (header), mantendo apenas no mobile */
+            #home-install-banner {
+                display: none !important;
+            }
         }
 
         /* Quiz View compacto e sem rolagem */
@@ -664,8 +668,8 @@
                     </div>
                 </div>
 
-                <!-- Install App Banner (Mobile & PC) -->
-                <div id="home-install-banner" class="mt-2.5 rounded-xl px-4 py-3 flex flex-col sm:flex-row items-center sm:justify-between gap-3 sm:gap-4 shadow-sm border border-blue-200/60 bg-white" style="border-left: 4px solid #2563eb;">
+                <!-- Install App Banner (Mobile only - Desktop has header button) -->
+                <div id="home-install-banner" class="sm:hidden mt-2.5 rounded-xl px-4 py-3 flex flex-col sm:flex-row items-center sm:justify-between gap-3 sm:gap-4 shadow-sm border border-blue-200/60 bg-white" style="border-left: 4px solid #2563eb;">
                     <div class="flex items-center gap-3 min-w-0 w-full sm:w-auto">
                         <div class="w-8 h-8 rounded-lg bg-blue-50 text-blue-600 flex items-center justify-center text-sm flex-shrink-0">
                             <i class="fas fa-download"></i>
