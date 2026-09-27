@@ -29,15 +29,27 @@ jobs:
         with:
           gradle-version: '8.5'
 
-      - name: Build Debug APK
+      - name: Generate Release Keystore
+        run: |
+          keytool -genkeypair -v \
+            -keystore android/app/release.keystore \
+            -alias quizmaster \
+            -keyalg RSA \
+            -keysize 2048 \
+            -validity 10000 \
+            -storepass quizmaster123 \
+            -keypass quizmaster123 \
+            -dname "CN=Creative AM, OU=Games, O=Creative AM, L=Sao Paulo, ST=SP, C=BR"
+
+      - name: Build Release APK
         run: |
           cd android
-          gradle assembleDebug --stacktrace
+          gradle assembleRelease --stacktrace
 
       - name: Prepare APK for Artifact
         run: |
           mkdir -p release-apk
-          cp android/app/build/outputs/apk/debug/app-debug.apk release-apk/QuizMaster-v1.0.0.apk
+          cp android/app/build/outputs/apk/release/app-release.apk release-apk/QuizMaster-v1.0.0.apk
 
       - name: Upload APK
         uses: actions/upload-artifact@v4

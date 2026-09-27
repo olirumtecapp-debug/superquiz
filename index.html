@@ -3,6 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        if (navigator.userAgent.includes("QuizMasterApp") || window.AndroidNativeApp !== undefined) {
+            document.documentElement.classList.add("native-app");
+        }
+    </script>
     <title>Quiz Master - Aprenda e Divirta-se</title>
     <meta name="theme-color" content="#0f2044">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -170,6 +175,7 @@
         .dark-theme #install-guide-ios, .dark-theme #install-guide-general { background-color: #0e1628 !important; border-color: #253555 !important; color: #cbd5e1 !important; }
         .dark-theme #home-install-banner { background-color: #152035 !important; border-color: #253555 !important; }
         .dark-theme #prof-install-card { background-color: #152035 !important; border-color: #253555 !important; }
+        .native-app #home-install-banner, .native-app #prof-install-card, .native-app #btn-install-header { display: none !important; }
         @media (prefers-color-scheme: dark) { body.auto-theme { background-color: #080f1e; } }
 
         .dark-theme #view-home, .dark-theme #view-categories, .dark-theme #view-results, .dark-theme #view-profile, .dark-theme #view-review, .dark-theme #view-quiz { background: #0e1628 !important; color: #e8eef8; }
@@ -2484,8 +2490,12 @@
             isInstalled: false,
 
             initPWA() {
-                const isStandalone = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
+                const isNativeApp = navigator.userAgent.includes('QuizMasterApp') || window.AndroidNativeApp !== undefined;
+                const isStandalone = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true || isNativeApp;
                 this.isInstalled = isStandalone;
+                if (isNativeApp) {
+                    document.documentElement.classList.add('native-app');
+                }
                 this.updateInstallUI();
             },
 

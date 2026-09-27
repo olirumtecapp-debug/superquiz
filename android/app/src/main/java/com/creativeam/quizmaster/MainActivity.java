@@ -46,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
         settings.setLoadWithOverviewMode(true);
         settings.setSupportZoom(false);
         settings.setBuiltInZoomControls(false);
+        settings.setUserAgentString(settings.getUserAgentString() + " QuizMasterApp/1.0.0");
 
         // Suporte para hardware acceleration
         webView.setLayerType(View.LAYER_TYPE_HARDWARE, null);
